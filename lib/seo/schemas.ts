@@ -15,7 +15,7 @@ export function generateOrganizationSchema() {
       width: 512,
       height: 512,
     },
-    email: 'info@tereosa.com',
+    email: 'sales@tereosa.com',
     sameAs: [
       'https://linkedin.com/company/tereosa',
       'https://twitter.com/tereosa',

@@ -226,7 +226,7 @@ export const legalNoticeEn: LegalDocument = {
       title: '2. Publication Director',
       paragraphs: [
         `The publication director responsible for editorial content on this website is the ${publicationDirector} of ${name}.`,
-        'Press and media enquiries: [media@tereosa.com](mailto:media@tereosa.com)',
+        'Press and media enquiries: [sales@tereosa.com](mailto:sales@tereosa.com)',
       ],
     },
     {

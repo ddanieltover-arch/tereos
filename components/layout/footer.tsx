@@ -83,7 +83,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>info@tereosa.com</span>
+                <span>sales@tereosa.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Phone className="w-4 h-4 text-primary" />

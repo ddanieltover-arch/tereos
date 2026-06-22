@@ -275,5 +275,5 @@ The website communicates:
 
 ## Support
 
-- Email: info@tereosa.com
+- Email: sales@tereosa.com
 - Website: https://tereosa.com

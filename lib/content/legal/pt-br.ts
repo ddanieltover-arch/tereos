@@ -227,7 +227,7 @@ export const legalNoticePtBr: LegalDocument = {
       title: '2. Diretor de Publicação',
       paragraphs: [
         `O diretor de publicação responsável pelo conteúdo editorial deste site é o ${publicationDirector} da ${name}.`,
-        'Consultas de imprensa e mídia: [media@tereosa.com](mailto:media@tereosa.com)',
+        'Consultas de imprensa e mídia: [sales@tereosa.com](mailto:sales@tereosa.com)',
       ],
     },
     {

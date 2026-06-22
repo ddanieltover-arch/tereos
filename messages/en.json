@@ -345,7 +345,7 @@
       "related": "Related Articles",
       "pressContact": "Press contact",
       "pressContactDescription": "For media inquiries and interview requests, contact our communications team.",
-      "pressEmail": "media@tereosa.com",
+      "pressEmail": "sales@tereosa.com",
       "pressContactLink": "Press contact page",
       "gatedTitle": "Request document",
       "gatedDescription": "Enter your email to receive this document.",
@@ -806,7 +806,7 @@
     "social": "Follow Us",
     "contact": {
       "title": "Contact Us",
-      "email": "info@tereosa.com",
+      "email": "sales@tereosa.com",
       "phone": "+66 2 XXX XXXX"
     }
   }

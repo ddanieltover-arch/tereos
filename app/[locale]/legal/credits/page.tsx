@@ -29,7 +29,7 @@ export default async function CreditsPage({
     description: t('description'),
     lastUpdated: 'February 2024',
     contactLabel: tLegal('needHelp'),
-    contactEmail: 'contact@tereosa.com',
+    contactEmail: 'sales@tereosa.com',
     sections: [
       {
         id: 'conception',

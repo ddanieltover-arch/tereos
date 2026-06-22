@@ -6,9 +6,9 @@ export const LEGAL_ENTITY = {
   publicationDirector: 'Corporate Communications Department',
   hostingProvider: 'Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States',
   emails: {
-    info: 'info@tereosa.com',
-    privacy: 'privacy@tereosa.com',
-    legal: 'legal@tereosa.com',
-    accessibility: 'accessibility@tereosa.com',
+    info: 'sales@tereosa.com',
+    privacy: 'sales@tereosa.com',
+    legal: 'sales@tereosa.com',
+    accessibility: 'sales@tereosa.com',
   },
 } as const;

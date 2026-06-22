@@ -227,7 +227,7 @@ export const legalNoticeTh: LegalDocument = {
       title: '2. ผู้อำนวยการด้านการเผยแพร่',
       paragraphs: [
         `ผู้อำนวยการด้านการเผยแพร่ที่รับผิดชอบเนื้อหาบรรณาธิการบนเว็บไซต์นี้คือ ${publicationDirector} ของ ${name}`,
-        'สอบถามด้านสื่อมวลชน: [media@tereosa.com](mailto:media@tereosa.com)',
+        'สอบถามด้านสื่อมวลชน: [sales@tereosa.com](mailto:sales@tereosa.com)',
       ],
     },
     {

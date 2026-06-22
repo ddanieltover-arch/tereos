@@ -13,7 +13,7 @@ interface ContactCTAProps {
 }
 
 const contactMethods = [
-  { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'info@tereosa.com', href: 'mailto:info@tereosa.com' },
+  { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'sales@tereosa.com', href: 'mailto:sales@tereosa.com' },
   { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+66 2 XXX XXXX', href: 'tel:+6620000000' },
   { icon: <MapPin className="w-5 h-5" />, label: 'Office', value: 'Bangkok, Thailand', href: '#' },
   { icon: <MessageSquare className="w-5 h-5" />, label: 'Inquiry', value: 'Send a message', href: '' },

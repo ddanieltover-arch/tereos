@@ -7,12 +7,12 @@ import { cn } from '@/lib/utils';
 
 const departments = [
   { value: 'sales', label: 'Sales & Trading', email: 'sales@tereosa.com' },
-  { value: 'export', label: 'Export Inquiries', email: 'export@tereosa.com' },
-  { value: 'investor', label: 'Investor Relations', email: 'ir@tereosa.com' },
-  { value: 'sustainability', label: 'Sustainability', email: 'sustainability@tereosa.com' },
-  { value: 'media', label: 'Media & Press', email: 'media@tereosa.com' },
-  { value: 'careers', label: 'Careers', email: 'careers@tereosa.com' },
-  { value: 'general', label: 'General Inquiry', email: 'info@tereosa.com' },
+  { value: 'export', label: 'Export Inquiries', email: 'sales@tereosa.com' },
+  { value: 'investor', label: 'Investor Relations', email: 'sales@tereosa.com' },
+  { value: 'sustainability', label: 'Sustainability', email: 'sales@tereosa.com' },
+  { value: 'media', label: 'Media & Press', email: 'sales@tereosa.com' },
+  { value: 'careers', label: 'Careers', email: 'sales@tereosa.com' },
+  { value: 'general', label: 'General Inquiry', email: 'sales@tereosa.com' },
 ];
 
 interface ContactFormProps {

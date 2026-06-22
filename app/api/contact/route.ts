@@ -5,12 +5,12 @@ import { getClientIp, rateLimit } from '@/lib/api/rate-limit';
 
 const DEPARTMENT_EMAILS: Record<string, string> = {
   sales: 'sales@tereosa.com',
-  export: 'export@tereosa.com',
-  investor: 'ir@tereosa.com',
-  sustainability: 'sustainability@tereosa.com',
-  media: 'media@tereosa.com',
-  careers: 'careers@tereosa.com',
-  general: 'info@tereosa.com',
+  export: 'sales@tereosa.com',
+  investor: 'sales@tereosa.com',
+  sustainability: 'sales@tereosa.com',
+  media: 'sales@tereosa.com',
+  careers: 'sales@tereosa.com',
+  general: 'sales@tereosa.com',
 };
 
 const contactSchema = z.object({
@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
     const routedTo = DEPARTMENT_EMAILS[validated.department] || DEPARTMENT_EMAILS.general;
 
     if (process.env.RESEND_API_KEY) {
-      // await resend.emails.send({ to: routedTo, cc: 'info@tereosa.com', ... })
+      // await resend.emails.send({ to: routedTo, cc: 'sales@tereosa.com', ... })
     } else {
       console.log('[Contact] Message routed to:', routedTo, {
         from: validated.email,

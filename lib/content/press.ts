@@ -1,5 +1,5 @@
 export const PRESS_CONTACT = {
-  email: 'media@tereosa.com',
+  email: 'sales@tereosa.com',
   phone: '+66 2 XXX XXXX',
   hours: 'Mon–Fri, 9:00–18:00 ICT (Bangkok)',
   responseTime: 'We aim to respond to verified media inquiries within one business day.',
@@ -19,7 +19,7 @@ export const pressTeam: PressTeamMember[] = [
     id: 'apac',
     name: 'Nattaya Srisuk',
     role: 'Head of Corporate Communications — APAC',
-    email: 'media@tereosa.com',
+    email: 'sales@tereosa.com',
     phone: '+66 2 XXX XXXX',
     region: 'Bangkok, Thailand',
   },
@@ -27,7 +27,7 @@ export const pressTeam: PressTeamMember[] = [
     id: 'global',
     name: 'Thomas Mercier',
     role: 'Group Media Relations',
-    email: 'media@tereosa.com',
+    email: 'sales@tereosa.com',
     region: 'Paris, France',
   },
 ];
