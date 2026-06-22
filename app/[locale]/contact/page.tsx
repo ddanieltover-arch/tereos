@@ -30,7 +30,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               {[
                 { icon: Mail, label: t('email'), value: 'sales@tereosa.com' },
                 { icon: Phone, label: t('phone'), value: '+66 2 XXX XXXX' },
-                { icon: MapPin, label: t('address'), value: 'Bangkok, Thailand' },
+                { icon: MapPin, label: t('address'), value: '[Thailand Address] | [Brazil Address]' },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">

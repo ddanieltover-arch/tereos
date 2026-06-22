@@ -91,7 +91,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Bangkok, Thailand</span>
+                <span>[Thailand Address] | [Brazil Address]</span>
               </div>
             </div>
           </FadeIn>
