@@ -80,8 +80,8 @@ export async function POST(request: NextRequest) {
             translations: {
               previewText: t('previewText'),
               thankYou: t('thankYou'),
-              dear: t('dear'),
-              received: t('received'),
+              dear: t('dear', { firstName: validated.firstName, lastName: validated.lastName }),
+              received: t('received', { subject: validated.subject }),
               yourMessage: t('yourMessage'),
               globalOperations: t('globalOperations'),
             }

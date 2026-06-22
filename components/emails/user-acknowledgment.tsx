@@ -56,9 +56,9 @@ export const UserAcknowledgmentEmail = ({
           <Heading style={h1}>{translations.thankYou}</Heading>
           
           <Text style={text}>
-            {translations.dear.replace('{firstName}', firstName).replace('{lastName}', lastName)}
+            {translations.dear}
           </Text>
-          <Text style={text} dangerouslySetInnerHTML={{ __html: translations.received.replace('{subject}', subject) }} />
+          <Text style={text} dangerouslySetInnerHTML={{ __html: translations.received }} />
           
           <Hr style={hr} />
 

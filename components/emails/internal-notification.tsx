@@ -8,6 +8,7 @@ import {
   Section,
   Text,
   Hr,
+  Img,
   Link,
 } from '@react-email/components';
 import * as React from 'react';
@@ -39,6 +40,16 @@ export const InternalNotificationEmail = ({
       <Preview>{previewText}</Preview>
       <Body style={main}>
         <Container style={container}>
+          <Section style={logoSection}>
+            <Img
+              src="https://tereosa.com/images/tereosa-logo.png" 
+              width="120"
+              height="auto"
+              alt="Tereos"
+              style={logo}
+            />
+          </Section>
+
           <Heading style={h1}>New Contact Form Submission</Heading>
           
           <Section style={section}>
@@ -87,31 +98,39 @@ export const InternalNotificationEmail = ({
 export default InternalNotificationEmail;
 
 const main = {
-  backgroundColor: '#f6f9fc',
+  backgroundColor: '#f4f7f6',
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
 };
 
 const container = {
   backgroundColor: '#ffffff',
-  margin: '0 auto',
-  padding: '20px 40px 40px',
-  marginBottom: '64px',
+  margin: '40px auto',
+  padding: '40px',
   borderRadius: '8px',
-  border: '1px solid #e6ebf1',
+  borderTop: '4px solid #14B8A6',
+  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+};
+
+const logoSection = {
+  marginBottom: '24px',
+};
+
+const logo = {
+  margin: '0 auto',
 };
 
 const hr = {
-  borderColor: '#e6ebf1',
-  margin: '20px 0',
+  borderColor: '#e5e7eb',
+  margin: '24px 0',
 };
 
 const h1 = {
-  color: '#333',
+  color: '#111827',
   fontSize: '24px',
-  fontWeight: 'bold',
-  paddingTop: '32px',
-  paddingBottom: '16px',
+  fontWeight: '700',
+  textAlign: 'center' as const,
+  marginBottom: '24px',
 };
 
 const h2 = {
@@ -126,24 +145,27 @@ const section = {
 };
 
 const text = {
-  color: '#555',
-  fontSize: '15px',
-  lineHeight: '24px',
-  margin: '4px 0',
+  color: '#4B5563',
+  fontSize: '16px',
+  lineHeight: '26px',
+  margin: '10px 0',
 };
 
 const messageText = {
-  color: '#333',
+  color: '#6B7280',
   fontSize: '15px',
   lineHeight: '24px',
-  backgroundColor: '#f9f9f9',
-  padding: '16px',
-  borderRadius: '4px',
+  fontStyle: 'italic',
+  borderLeft: '4px solid #E5E7EB',
+  paddingLeft: '16px',
+  margin: '10px 0',
   whiteSpace: 'pre-wrap' as const,
 };
 
 const footer = {
-  color: '#8898aa',
-  fontSize: '12px',
-  marginTop: '20px',
+  color: '#9CA3AF',
+  fontSize: '13px',
+  lineHeight: '22px',
+  textAlign: 'center' as const,
+  marginTop: '32px',
 };
