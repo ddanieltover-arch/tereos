@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useLocale } from 'next-intl';
 import { Send, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -40,6 +41,7 @@ const inquiryOptions = [
 ];
 
 export function PressContactForm({ labels }: PressContactFormProps) {
+  const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -89,6 +91,7 @@ export function PressContactForm({ labels }: PressContactFormProps) {
           ]
             .filter(Boolean)
             .join('\n'),
+          locale,
         }),
       });
       const data = await res.json();

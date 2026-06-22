@@ -1,6 +1,7 @@
 
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
@@ -16,8 +17,30 @@ export function Footer() {
   const commonT = useTranslations('common');
   const currentYear = new Date().getFullYear();
 
+  const [email, setEmail] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) return;
+    setLoading(true);
+    try {
+      const res = await fetch('/api/newsletter', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      if (res.ok) setSuccess(true);
+    } catch {
+      // Silently fail or handle error
+    } finally {
+      setLoading(false);
+    }
   };
 
   const footerLinks = {
@@ -157,19 +180,31 @@ export function Footer() {
               <h4 className="text-lg font-semibold text-white mb-1">{t('newsletter.title')}</h4>
               <p className="text-sm text-white/60">{t('newsletter.description')}</p>
             </div>
-            <form className="flex gap-2 max-w-md w-full lg:w-auto" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder={t('newsletter.placeholder')}
-                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
-                aria-label="Email address"
-              />
-              <button
-                type="submit"
-                className="px-6 py-3 bg-primary hover:bg-primary-dark text-white text-sm font-medium rounded-lg transition-colors duration-300 whitespace-nowrap"
-              >
-                {t('newsletter.button')}
-              </button>
+            <form className="flex gap-2 max-w-md w-full lg:w-auto" onSubmit={handleSubscribe}>
+              {success ? (
+                <div className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white text-sm">
+                  {t('newsletter.success')}
+                </div>
+              ) : (
+                <>
+                  <input
+                    type="email"
+                    placeholder={t('newsletter.placeholder')}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                    className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
+                    aria-label="Email address"
+                  />
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="px-6 py-3 bg-primary hover:bg-primary-dark text-white text-sm font-medium rounded-lg transition-colors duration-300 whitespace-nowrap disabled:opacity-50"
+                  >
+                    {loading ? '...' : t('newsletter.button')}
+                  </button>
+                </>
+              )}
             </form>
           </div>
         </FadeIn>

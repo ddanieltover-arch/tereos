@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useLocale } from 'next-intl';
 import {
   Modal,
   ModalContent,
@@ -28,6 +29,7 @@ interface JobApplyModalProps {
 }
 
 export function JobApplyModal({ job, onClose, labels }: JobApplyModalProps) {
+  const locale = useLocale();
   const [form, setForm] = useState({ firstName: '', lastName: '', email: '', message: '' });
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -47,6 +49,7 @@ export function JobApplyModal({ job, onClose, labels }: JobApplyModalProps) {
           department: 'careers',
           subject: `Application: ${job.title}`,
           message: `Position: ${job.title} (${job.slug})\nLocation: ${job.location}\n\n${form.message}`,
+          locale,
         }),
       });
       if (!res.ok) throw new Error();
