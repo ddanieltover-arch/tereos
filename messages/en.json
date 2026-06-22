@@ -1,0 +1,783 @@
+
+{
+  "metadata": {
+    "title": "Tereos Açúcar e Energia S.A. — Global Leader in Sugar, Bioenergy & Agriculture",
+    "description": "Tereos Açúcar e Energia S.A. is a Thailand-based global leader in sugar production, bioenergy, agricultural innovation, and sustainable food solutions. Day by day, cultivating the future."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "governance": "Governance",
+    "businesses": "Our Businesses",
+    "products": "Products",
+    "sustainability": "Sustainability",
+    "investors": "Investor Relations",
+    "news": "News & Media",
+    "pressContact": "Press Contact",
+    "careers": "Careers",
+    "global": "Global Presence",
+    "innovation": "Innovation",
+    "downloads": "Download Center",
+    "consumerBrands": "Consumer Brands",
+    "contact": "Contact",
+    "search": "Search",
+    "language": "Language",
+    "learnMore": "Learn more",
+    "contactUs": "Contact Us",
+    "strategy": "Strategy",
+    "history": "History",
+    "purpose": "Our Purpose",
+    "rawMaterials": "Raw Materials",
+    "cultivateNetZero": "Cultivate Net-Zero",
+    "quality": "Quality Documents",
+      "navDesc": {
+      "about": "Our history, vision, and global strategy",
+      "governance": "Board of Directors, committees, and management",
+      "global": "Offices and operations across 40+ countries",
+      "innovation": "R&D and agricultural technology",
+      "businessesOverview": "Overview of all five divisions",
+      "products": "Full product catalog and specifications",
+      "marketsOverview": "All markets we serve",
+      "productLinesOverview": "All product lines",
+      "consumerBrands": "Retail sugar, organic, and protein brands",
+      "news": "Latest news, press releases, and media documents",
+      "pressContact": "Media inquiries and spokesperson requests",
+      "annualResults": "Quarterly and annual financial reports",
+      "regulatedInfo": "Regulated disclosures and AGM materials",
+      "financialCalendar": "Results dates and dividend calendar",
+      "irPresentations": "Investor decks and conference slides",
+      "strategy": "Our cooperative model and value chain",
+      "history": "From 1932 to a global cooperative",
+      "purpose": "Cultivating for the earth and people",
+      "rawMaterials": "Sugar cane, beet, wheat, corn & alfalfa",
+      "cultivateNetZero": "Decarbonisation & regenerative agriculture offer",
+      "quality": "Quality charters and documentation"
+    },
+    "navBusiness": {
+      "sugar": "Sugar",
+      "bioenergy": "Bioenergy",
+      "agriculture": "Agriculture",
+      "food": "Food Ingredients",
+      "renewable": "Renewable Solutions"
+    },
+    "navMarket": {
+      "food": "Food & Beverage",
+      "energy": "Energy & Biofuels",
+      "feed": "Animal Feed",
+      "chemicals": "Green Chemicals",
+      "pharma": "Pharmaceuticals & Cosmetics",
+      "personalCare": "Personal Care",
+      "paper": "Paper & Cellulose"
+    },
+    "navProductLine": {
+      "alcohol": "Alcohol",
+      "bioethanol": "Bioethanol",
+      "sugarSweeteners": "Sugar & Sweeteners",
+      "starches": "Starches",
+      "maltodextrins": "Maltodextrins",
+      "organic": "Organic Products",
+      "dietaryFibres": "Dietary Fibres",
+      "animalFeedFibres": "Fibres & Animal Feed",
+      "proteins": "Proteins"
+    },
+    "navFeatured": {
+      "about": {
+        "title": "Cultivating the Future",
+        "description": "Discover our mission to transform agriculture sustainably."
+      },
+      "businesses": {
+        "title": "Five Global Divisions",
+        "description": "Sugar, bioenergy, agriculture, and more."
+      },
+      "products": {
+        "title": "Quality Products",
+        "description": "Explore our catalog of sugar, ethanol, and specialty ingredients."
+      },
+      "sustainability": {
+        "title": "ESG Commitment",
+        "description": "Carbon reduction, water stewardship, and community impact."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "ctaPrimary": "Discover Our World",
+      "ctaSecondary": "Our Sustainability Commitment"
+    },
+    "overview": {
+      "title": "A Global Force in Agriculture & Energy",
+      "description": "From Thailand to the world, we transform agricultural resources into essential products that feed, fuel, and power communities while championing environmental stewardship and sustainable growth.",
+      "stats": {
+        "sugar": "15M+ Tons Sugar/Year",
+        "countries": "40+ Countries",
+        "employees": "25,000+ Employees",
+        "revenue": "€5B+ Revenue"
+      }
+    },
+    "businesses": {
+      "title": "Our Business Divisions",
+      "description": "Diverse capabilities, unified purpose. Explore how we create value across the entire agricultural value chain.",
+      "sugar": {
+        "title": "Sugar",
+        "description": "World-class sugar production from cane to crystal, serving food, beverage, and industrial markets globally with uncompromising quality."
+      },
+      "bioenergy": {
+        "title": "Bioenergy",
+        "description": "Renewable energy solutions including ethanol, biomass power, and next-generation biofuels driving the clean energy transition."
+      },
+      "agriculture": {
+        "title": "Agriculture",
+        "description": "Sustainable farming practices, agricultural services, and farmer partnership programs cultivating prosperity in rural communities."
+      },
+      "food": {
+        "title": "Food Ingredients",
+        "description": "Specialty ingredients, sweeteners, and functional solutions that enhance taste, texture, and nutrition for the global food industry."
+      },
+      "renewable": {
+        "title": "Renewable Solutions",
+        "description": "Circular economy innovations transforming agricultural byproducts into valuable resources for a sustainable tomorrow."
+      }
+    },
+    "sustainability": {
+      "title": "Our Sustainability Commitment",
+      "description": "We are committed to reducing our environmental footprint while increasing positive social impact across every aspect of our operations.",
+      "metrics": {
+        "carbon": "Carbon Reduction",
+        "water": "Water Efficiency",
+        "energy": "Renewable Energy",
+        "community": "Community Investment"
+      },
+      "cta": "Explore Our ESG Report"
+    },
+    "news": {
+      "title": "Latest News",
+      "cta": "View All News"
+    },
+    "investors": {
+      "title": "Investor Relations",
+      "description": "Transparent governance, strong financial performance, and sustainable growth strategies that create long-term value for our stakeholders.",
+      "cta": "Visit IR Portal"
+    },
+    "careers": {
+      "title": "Join Our Global Team",
+      "description": "Be part of a purpose-driven organization shaping the future of agriculture, energy, and sustainable innovation worldwide.",
+      "cta": "Explore Careers"
+    },
+    "global": {
+      "eyebrow": "Global Presence",
+      "title": "Reaching Across Continents, Connecting Markets",
+      "description": "From our headquarters in Thailand, explore offices, production facilities, and partner hubs across 40+ countries on our interactive map.",
+      "cta": "Explore Global Presence"
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "download": "Download",
+    "search": "Search",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again.",
+    "success": "Success!",
+    "required": "Required",
+    "optional": "Optional",
+    "allRightsReserved": "© {year} Tereos Açúcar e Energia S.A. Co., Ltd. All rights reserved.",
+    "menu": "Menu",
+    "backToTop": "Back to top",
+    "skipToContent": "Skip to main content",
+    "cookieMessage": "We use cookies and analytics to improve your experience.",
+    "cookieAccept": "Accept",
+    "cookieDecline": "Decline",
+    "cookiePrivacy": "Privacy Policy"
+  },
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "description": "Learn about Tereos — our purpose, manifesto, and history as a global leader in sugar, bioenergy, and sustainable agriculture.",
+      "heroDescription": "From a cooperative distillery in northern France to the world's second largest sugar producer — discover our purpose and history.",
+      "purpose": "Our Purpose",
+      "manifesto": "Manifesto",
+      "purposeStatementLabel": "Our Purpose",
+      "signatureLabel": "Signature",
+      "purposePillars": "Purpose",
+      "history": "History",
+      "historyIntroLabel": "Overview",
+      "governanceLink": "Explore Governance"
+    },
+    "governance": {
+      "title": "Governance",
+      "description": "Our approach to corporate governance — Board of Directors, committees, Cooperative Board, and management.",
+      "eyebrow": "About Us",
+      "overview": "Overview",
+      "board": "Board of Directors",
+      "committees": "Board Committees",
+      "advisoryCouncil": "Cooperative Board",
+      "commissions": "Activity Commissions",
+      "regional": "Regional Assemblies & Councils",
+      "management": "Management Committee",
+      "viewBio": "View full bio",
+      "backToAbout": "Back to About Us",
+      "responsibilities": "Key responsibilities",
+      "irLink": "Investor Relations"
+    },
+    "businesses": {
+      "title": "Our Businesses",
+      "description": "Five integrated divisions powering global agriculture, energy, and food industries.",
+      "markets": "Markets Served",
+      "capabilities": "Core Capabilities",
+      "impact": "Sustainability Impact",
+      "viewProducts": "View Related Products",
+      "backToBusinesses": "All Businesses"
+    },
+    "products": {
+      "title": "Products",
+      "description": "Premium sugar, biofuels, food ingredients, and renewable solutions for global markets.",
+      "search": "Search products...",
+      "all": "All",
+      "learnMore": "Learn more",
+      "noResults": "No products match your search.",
+      "specifications": "Specifications",
+      "applications": "Applications",
+      "inquire": "Request Information",
+      "backToCatalog": "Back to catalog",
+      "related": "Related Products",
+      "marketsTitle": "Markets",
+      "marketsDescription": "Seven end-use markets served by Tereos ingredients and energy products worldwide.",
+      "marketsIndexTitle": "Markets We Serve",
+      "marketsIndexDescription": "Explore how Tereos products support food, energy, feed, chemistry, pharma, personal care, and paper industries.",
+      "productLinesTitle": "Product Lines",
+      "productLinesDescription": "Nine integrated product lines from cane sugar and bioethanol to fibres, proteins, and organic ingredients.",
+      "productLinesIndexTitle": "Product Lines",
+      "productLinesIndexDescription": "Discover our full range of sugar, alcohol, starch, fibre, and protein product lines.",
+      "viewAllMarkets": "View all markets",
+      "viewAllProductLines": "View all product lines",
+      "catalogTitle": "Product Catalog",
+      "highlights": "Key Capabilities",
+      "relatedDivisions": "Related Business Divisions",
+      "contactTitle": "Interested in this range?",
+      "contactCta": "Contact Sales",
+      "viewFilteredProducts": "View all matching products",
+      "rawMaterialsTitle": "Raw Materials",
+      "rawMaterialsDescription": "Five agricultural raw materials at the heart of Tereos operations worldwide."
+    },
+    "consumerBrands": {
+      "title": "Consumer Brands",
+      "description": "Discover Tereos retail brands — from everyday cane sugars to organic specialties and plant-based proteins.",
+      "intro1": "Tereos brings quality and innovation to consumers through iconic retail brands in Europe, the Americas, and Asia-Pacific — and refined cane sugars for retail partners across Thailand and ASEAN.",
+      "intro2": "From Beghin Say and La Perruche to Guarani, Sucre & Stévia, and Ensemble, our portfolio reflects the same traceability, farmer partnerships, and sustainable production that define Tereos industrial excellence.",
+      "brandsTitle": "Our Brands",
+      "brandsDescription": "Flagship Tereos names on retail shelves worldwide, plus refined cane sugars for Southeast Asian markets.",
+      "highlights": "Product highlights",
+      "statBrands": "Featured consumer brands",
+      "statCountries": "Countries where Tereos operates",
+      "statCoopMembers": "Cooperative members worldwide",
+      "statRawMaterials": "Tonnes of raw materials processed annually",
+      "ctaTitle": "Looking for industrial ingredients?",
+      "ctaDescription": "Explore our B2B product catalog, markets, and product lines for food manufacturers and distributors.",
+      "ctaProducts": "Browse Products",
+      "ctaContact": "Contact Sales"
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "Our ESG commitment to carbon reduction, water stewardship, renewable energy, and community impact.",
+      "reports": "ESG Reports & Documents",
+      "target": "Target",
+      "download": "Download"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Reach our team for sales, partnerships, investor relations, media, or general inquiries.",
+      "eyebrow": "Get in Touch",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Headquarters",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "department": "Department",
+      "subject": "Subject",
+      "message": "Message",
+      "attachment": "Attach document (PDF, max 10MB) — coming soon",
+      "submit": "Send Message",
+      "selectDepartment": "Select a department",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for contacting us. We will respond within 2 business days.",
+      "error": "Failed to send message. Please try again."
+    },
+    "news": {
+      "title": "News & Media",
+      "description": "Browse the full news archive — press releases, corporate news, and media documents from Tereos Açúcar e Energia.",
+      "tabAll": "All news",
+      "tabPressReleases": "Press releases",
+      "tabNews": "News",
+      "tabDocuments": "Documents",
+      "all": "All",
+      "readMore": "Read more",
+      "download": "Download",
+      "loadMore": "Load more",
+      "noResults": "No items found in this section.",
+      "statArticles": "Articles in archive",
+      "statYears": "Publication years",
+      "filterYear": "Publication year",
+      "allYears": "All years",
+      "backToNews": "Back to News",
+      "downloadPdf": "Download PDF",
+      "related": "Related Articles",
+      "pressContact": "Press contact",
+      "pressContactDescription": "For media inquiries and interview requests, contact our communications team.",
+      "pressEmail": "media@tereosa.com",
+      "pressContactLink": "Press contact page",
+      "gatedTitle": "Request document",
+      "gatedDescription": "Enter your email to receive this document.",
+      "email": "Your email address",
+      "submit": "Request & Download",
+      "gatedSuccess": "Thank you! Your download will begin shortly."
+    },
+    "pressContact": {
+      "title": "Press Contact",
+      "description": "For media inquiries, interview requests, and corporate communications support.",
+      "emailLabel": "Press email",
+      "phoneLabel": "Press phone",
+      "hoursLabel": "Office hours",
+      "teamTitle": "Media relations team",
+      "formTitle": "Submit a media inquiry",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "outlet": "Media outlet / publication",
+      "inquiryType": "Type of inquiry",
+      "selectInquiry": "Select inquiry type",
+      "deadline": "Deadline (optional)",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send inquiry",
+      "successTitle": "Inquiry received",
+      "successMessage": "Thank you. Our communications team will respond within one business day.",
+      "error": "Failed to send inquiry. Please try again or email us directly.",
+      "inquiryInterview": "Interview / spokesperson request",
+      "inquiryRelease": "Press release confirmation",
+      "inquiryAssets": "Images, logos, or b-roll",
+      "inquiryEsg": "ESG / sustainability data",
+      "inquiryEvent": "Event or site visit",
+      "inquiryOther": "Other media enquiry",
+      "inquiriesTitle": "How we can help",
+      "inquiriesDescription": "Our team supports journalists and editors covering Tereos and the broader agri-food sector.",
+      "resourcesTitle": "Media resources",
+      "resourcesDescription": "Find official news, documents, and background information.",
+      "viewResource": "View"
+    },
+    "ir": {
+      "title": "Investor Relations",
+      "description": "Access financial reports, annual results, regulated disclosures, and investor resources.",
+      "statRevenue": "Annual Revenue",
+      "statCountries": "Countries",
+      "statEmployees": "Employees",
+      "sectionsTitle": "Finance & reporting",
+      "sectionsDescription": "Browse annual and interim results, regulated information, the financial calendar, and investor presentations.",
+      "learnMore": "Explore",
+      "backToIr": "Back to Investor Relations",
+      "sections": {
+        "annual-results": {
+          "title": "Annual & interim results",
+          "description": "Quarterly and full-year financial reports with press releases."
+        },
+        "regulated-information": {
+          "title": "Regulated information",
+          "description": "Periodic disclosures, inside information, and shareholder meeting materials."
+        },
+        "financial-calendar": {
+          "title": "Financial calendar",
+          "description": "Upcoming results publications, AGM dates, and dividend payments."
+        },
+        "presentations": {
+          "title": "Presentations",
+          "description": "Investor decks and conference materials for analysts and shareholders."
+        },
+        "governance": {
+          "title": "Corporate governance",
+          "description": "Board composition, committees, and governance charter."
+        }
+      },
+      "annualResults": {
+        "title": "Annual & interim results",
+        "description": "Consolidated revenue, EBITDA, and net debt figures published each quarter and at year-end.",
+        "periodAnnual": "Annual report",
+        "periodH1": "Half-year",
+        "periodQ1": "Q1 interim",
+        "periodQ3": "Q3 interim",
+        "viewPressRelease": "Press release",
+        "reportAvailable": "Report available for download",
+        "noDocument": "Document coming soon",
+        "downloadsTitle": "Download financial reports",
+        "downloadsDescription": "Filter by year and language to download annual reports and interim statements."
+      },
+      "regulatedInfo": {
+        "title": "Regulated information",
+        "description": "Information made public in accordance with applicable listing and disclosure rules.",
+        "periodicTitle": "Periodic financial information",
+        "periodicDescription": "Annual reports, half-year statements, and quarterly interim reports published on a fixed schedule.",
+        "insideInformationTitle": "Inside information & press releases",
+        "insideInformationDescription": "Material events and financial results communicated through our regulated news channel.",
+        "shareholderMeetingsTitle": "Shareholder meetings",
+        "shareholderMeetingsDescription": "AGM notices, voting results, and dividend resolutions.",
+        "governanceTitle": "Governance & compliance",
+        "governanceDescription": "Corporate governance charter, board policies, and compliance statements.",
+        "debtInvestorsTitle": "Debt & bond investors",
+        "debtInvestorsDescription": "Credit ratings, bond documentation, and fixed-income investor presentations.",
+        "viewPage": "View related page"
+      },
+      "financialCalendar": {
+        "title": "Financial calendar",
+        "description": "Key dates for results announcements, shareholder meetings, and dividend payments.",
+        "typeResults": "Results",
+        "typeAgm": "AGM",
+        "typeDividend": "Dividend",
+        "typePublication": "Publication",
+        "upcoming": "Upcoming events",
+        "past": "Past events",
+        "learnMore": "View details"
+      },
+      "presentations": {
+        "title": "Investor presentations",
+        "description": "Download slide decks from results briefings, conferences, and capital markets days."
+      },
+      "documentsTitle": "Investor Documents",
+      "documentsDescription": "Filter by fiscal year and document type — presentations, regulated disclosures, and results releases.",
+      "all": "All",
+      "allYears": "All Years",
+      "allFiscalYears": "All fiscal years",
+      "allDocumentTypes": "All documents",
+      "filterFiscalYear": "Fiscal year",
+      "filterDocumentType": "Document type",
+      "documentTypes": {
+        "presentation": "Presentations",
+        "regulated": "Regulated information",
+        "results": "Results & financial releases"
+      },
+      "allLanguages": "All Languages",
+      "download": "Download",
+      "gated": "Email required",
+      "gatedTitle": "Request Document",
+      "gatedDescription": "Enter your email to receive this document.",
+      "email": "Your email address",
+      "submit": "Request & Download",
+      "gatedSuccess": "Thank you! Your download will begin shortly.",
+      "noResults": "No documents match your filters.",
+      "contactTitle": "Investor Inquiries",
+      "contactDescription": "For investor relations questions, please contact our IR team.",
+      "contactCta": "Contact IR Team"
+    },
+    "downloads": {
+      "title": "Download Center",
+      "description": "Access brochures, reports, catalogs, certifications, and investor documents in one place.",
+      "sectionsTitle": "Browse by category",
+      "sectionsDescription": "Jump to annual reports, sustainability publications, marketing brochures, certifications, or specialized investor and newsroom libraries.",
+      "learnMore": "Browse",
+      "libraryTitle": "Document library",
+      "libraryDescription": "Filter by category, fiscal year, document type, and language. Gated documents require a brief email request before download.",
+      "statDocuments": "Documents",
+      "statCategories": "Categories",
+      "statYears": "Publication years",
+      "statGated": "Gated downloads",
+      "sections": {
+        "all": {
+          "title": "All documents",
+          "description": "Full catalog of downloadable brochures, reports, and certifications."
+        },
+        "annual-reports": {
+          "title": "Annual reports",
+          "description": "Consolidated financial statements and group overview publications."
+        },
+        "sustainability": {
+          "title": "Sustainability reports",
+          "description": "ESG performance, carbon targets, and community impact reports."
+        },
+        "brochures": {
+          "title": "Brochures & catalogs",
+          "description": "Corporate brochures and product catalogs for customers and partners."
+        },
+        "certifications": {
+          "title": "Certifications",
+          "description": "ISO, quality, and environmental management certificates."
+        },
+        "investor": {
+          "title": "Investor library",
+          "description": "Interim results, presentations, and regulated IR documents."
+        },
+        "newsroom": {
+          "title": "Newsroom documents",
+          "description": "Press kits, media assets, and official newsroom PDFs."
+        }
+      },
+      "all": "All",
+      "allYears": "All Years",
+      "allFiscalYears": "All fiscal years",
+      "allDocumentTypes": "All documents",
+      "filterFiscalYear": "Fiscal year",
+      "filterDocumentType": "Document type",
+      "documentTypes": {
+        "presentation": "Presentations",
+        "regulated": "Regulated information",
+        "results": "Results & financial releases"
+      },
+      "allLanguages": "All Languages",
+      "download": "Download",
+      "gated": "Email required",
+      "gatedTitle": "Request Document",
+      "gatedDescription": "Enter your email to receive this document.",
+      "email": "Your email address",
+      "submit": "Request & Download",
+      "gatedSuccess": "Thank you! Your download will begin shortly.",
+      "noResults": "No documents match your filters."
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Join our global team. Explore job opportunities, employee benefits, and career development programs.",
+      "whyTitle": "Why Tereos?",
+      "whyDescription": "Be part of a purpose-driven organization shaping the future of agriculture, energy, and sustainable innovation worldwide.",
+      "benefit1Title": "Global Opportunities",
+      "benefit1Desc": "Work across 40+ countries with international career paths.",
+      "benefit2Title": "Learning & Development",
+      "benefit2Desc": "Continuous training, graduate programs, and leadership development.",
+      "benefit3Title": "Health & Wellbeing",
+      "benefit3Desc": "Comprehensive health coverage and work-life balance programs.",
+      "benefit4Title": "Inclusive Culture",
+      "benefit4Desc": "Diverse teams united by a shared commitment to sustainability.",
+      "openingsTitle": "Open Positions",
+      "openingsDescription": "Find your next role in engineering, sustainability, operations, and more.",
+      "all": "All Departments",
+      "apply": "Apply Now",
+      "noResults": "No positions match this department.",
+      "fullTime": "Full-time",
+      "partTime": "Part-time",
+      "contract": "Contract",
+      "internship": "Internship",
+      "applyTitle": "Apply for Position",
+      "applyDescription": "Submit your application and our HR team will be in touch.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "message": "Cover letter / message",
+      "submit": "Submit Application",
+      "applySuccess": "Application submitted! We will contact you within 5 business days.",
+      "applyError": "Failed to submit application. Please try again.",
+      "graduateTitle": "Graduate Program 2026",
+      "graduateDescription": "Two-year rotational program for recent graduates across Thailand, Brazil, and France.",
+      "graduateCta": "Apply to Graduate Program",
+      "valuesTitle": "Our Values",
+      "valuesDescription": "The principles that guide how we work with colleagues, farmers, customers, and communities every day.",
+      "testimonialsTitle": "Life at Tereos",
+      "testimonialsDescription": "Hear from colleagues across engineering, agriculture, sustainability, and commercial teams.",
+      "statEmployees": "Employees worldwide",
+      "statCountries": "Countries of operation",
+      "statRecommend": "Would recommend Tereos to a friend",
+      "statTenure": "Average internal promotion cycle",
+      "atsTitle": "Apply through our careers portal",
+      "atsDescription": "All applications are processed through our secure applicant tracking system. Create a profile to apply for multiple roles and track your progress.",
+      "atsCta": "Open Careers Portal",
+      "applyExternal": "Apply on Portal"
+    },
+    "global": {
+      "title": "Global Presence",
+      "description": "Explore our worldwide operations, export markets, distribution partners, and production facilities.",
+      "offices": "Offices",
+      "facilities": "Facilities",
+      "partners": "Partners",
+      "countries": "Countries",
+      "selectLocation": "Select a location on the map or from the list below.",
+      "filterAll": "All locations",
+      "typeOffice": "Office",
+      "typeFacility": "Facility",
+      "typePartner": "Partner"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Discover our R&D initiatives, new technologies, bioenergy research, and agricultural innovation projects.",
+      "overviewTitle": "Pioneering the Future",
+      "overviewDescription": "Our R&D teams push the boundaries of sustainable agriculture, bioenergy production, and circular economy solutions.",
+      "statRd": "Annual R&D Investment",
+      "statResearchers": "Researchers",
+      "statPatents": "Active Patents",
+      "statPartners": "University Partners",
+      "projectsTitle": "Innovation Projects",
+      "category": "Category",
+      "prioritiesTitle": "Our 6 Innovation Priorities",
+      "learnMore": "Learn more"
+    },
+    "search": {
+      "title": "Search",
+      "description": "Search the full tereosa.com site — pages, products, news, downloads, brands, careers, and more.",
+      "placeholder": "Search pages, products, news, documents…",
+      "submit": "Search",
+      "loading": "Searching",
+      "resultsFor": "Results for \"{query}\"",
+      "resultCount": "{count} results",
+      "noResults": "No results found for \"{query}\".",
+      "emptyPrompt": "Enter at least 2 characters to search the site.",
+      "error": "Something went wrong. Please try again.",
+      "rateLimit": "Too many searches. Please wait a moment and try again.",
+      "loadMore": "Load more results",
+      "filterAll": "All",
+      "types": {
+        "page": "Page",
+        "product": "Product",
+        "news": "News",
+        "division": "Business",
+        "job": "Career",
+        "market": "Market",
+        "productLine": "Product Line",
+        "document": "Document",
+        "brand": "Brand"
+      }
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "description": "Browse all pages on tereosa.com — main sections, products, news, resources, and legal documents.",
+      "browseLabel": "Explore every section of our website. Select a category below to jump to its pages.",
+      "openXml": "Open XML sitemap",
+      "sectionMain": "Main",
+      "sectionAbout": "About",
+      "sectionBusinesses": "Businesses",
+      "sectionProducts": "Products",
+      "sectionNews": "News & Media",
+      "sectionResources": "Resources",
+      "sectionLegal": "Legal",
+      "xmlLink": "View XML sitemap for search engines"
+    },
+    "accessibility": {
+      "title": "Accessibility Statement",
+      "description": "Our commitment to making tereosa.com accessible to all users in line with WCAG 2.1 AA.",
+      "commitmentTitle": "Our Commitment",
+      "commitmentBody": "Tereos Açúcar e Energia S.A. is committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply relevant accessibility standards.",
+      "standardTitle": "Conformance Status",
+      "standardBody": "This website aims to conform with WCAG 2.1 level AA. We test with automated tools (Lighthouse, axe) and manual keyboard navigation reviews as part of our release process.",
+      "featuresTitle": "Accessibility Features",
+      "featuresBody": "• Skip-to-content link on every page\n• Semantic HTML5 landmarks (header, main, footer)\n• Keyboard-navigable menus and interactive map\n• Visible focus indicators on all interactive elements\n• prefers-reduced-motion support for animations\n• Alt text on images and ARIA labels on icon-only controls\n• Sufficient color contrast ratios (4.5:1 minimum for text)\n• Responsive design supporting zoom up to 200%",
+      "feedbackTitle": "Feedback & Assistance",
+      "feedbackBody": "If you encounter accessibility barriers on this site, please contact us. We aim to respond within 5 business days and will work with you to provide the information in an alternative format.",
+      "lastUpdated": "Last updated",
+      "contact": "Contact"
+    },
+    "legal": {
+      "relatedDocuments": "Related documents",
+      "tableOfContents": "On this page",
+      "needHelp": "Questions about this document?",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "terms": "Legal Notice",
+      "accessibility": "Accessibility",
+      "credits": "Credits"
+    },
+    "rawMaterials": {
+      "title": "Raw Materials",
+      "description": "Discover the agricultural raw materials at the heart of Tereos operations — sugar cane, sugar beet, wheat, corn, and alfalfa.",
+      "eyebrow": "Products",
+      "intro": "Tereos processes five major agricultural raw materials across our global operations. Each material undergoes sophisticated industrial transformation to produce a wide range of products for food, energy, feed, and industrial markets — while valorising virtually every fraction of the plant.",
+      "learnMore": "Learn more",
+      "applications": "Key Applications",
+      "discoverOthers": "Discover Our Other Raw Materials"
+    },
+    "cultivateNetZero": {
+      "title": "Cultivate Net-Zero",
+      "description": "Our decarbonisation and regenerative agriculture offer — supporting industrial customers on the path to net-zero emissions.",
+      "eyebrow": "Sustainability",
+      "heroDescription": "An exclusive programme to decarbonise your value chain through low-carbon sourcing, personalised carbon management, and regenerative agriculture partnerships.",
+      "solutionsTitle": "Three Solutions for Your Net-Zero Journey",
+      "investmentTitle": "Our Industrial & Agricultural Commitment",
+      "investmentDescription": "Backed by significant investment and science-based targets, we are transforming our operations and supply chains to deliver measurable decarbonisation.",
+      "farmerTitle": "Supporting Our Farmers",
+      "farmerDescription": "Tereos invests directly in farmer support programmes, covering diagnostics costs, partnering with transition organisations, and providing financial incentives for sustainable practices.",
+      "ctaTitle": "Ready to Start Your Net-Zero Journey?",
+      "ctaSustainability": "Explore Our ESG Roadmap",
+      "ctaContact": "Contact Our Team"
+    },
+    "strategy": {
+      "title": "Strategy",
+      "description": "Building a sound, long-term cooperative model that creates value while serving essential daily needs.",
+      "eyebrow": "About Us",
+      "heroDescription": "How Tereos adapts to a changing agri-food landscape through diversification, value chain excellence, and circular economy principles.",
+      "circularTitle": "The Circular Economy in Numbers",
+      "relatedLabel": "Explore Further",
+      "relatedHistory": "Our History",
+      "relatedHistoryDesc": "From a cooperative distillery in 1932 to a global agri-food group — discover our journey.",
+      "relatedInnovation": "Innovation",
+      "relatedInnovationDesc": "How we pioneer new solutions in agronomy, energy, and nutrition."
+    },
+    "purpose": {
+      "title": "Our Purpose",
+      "description": "Cultivating for the Earth and People by meeting essential daily needs — our manifesto and guiding principles.",
+      "eyebrow": "About Us",
+      "heroDescription": "Discover the purpose that drives everything we do — from the field to the table, from energy to innovation.",
+      "manifesto": "We are cultivators. We cultivate the land, we cultivate cooperation, we cultivate the link between nature and people. Since 1932, our cooperative has been rooted in the conviction that agricultural transformation can serve both the earth and humanity. From sugar beet to sugar cane, from wheat to alfalfa, we transform plant resources into products that nourish, energise, and improve daily life. This is our purpose.",
+      "pillarsLabel": "Our Purpose in Three Pillars",
+      "pillarCultivating": "Cultivating",
+      "pillarCultivatingDesc": "Agriculture is our first profession. We support farmers in their daily practice, helping them adapt to climate change, adopt sustainable techniques, and build resilience for the future. Cultivating means nurturing the land that feeds us all.",
+      "pillarEarthPeople": "For the Earth & People",
+      "pillarEarthPeopleDesc": "Our cooperative name comes from the Greek 'tereos' — to protect, to preserve. We believe in reciprocity: what we take from the earth, we give back through sustainable practices, community investment, and environmental stewardship.",
+      "pillarDailyNeeds": "Meeting Essential Daily Needs",
+      "pillarDailyNeedsDesc": "From the sugar in your morning coffee to the bioethanol powering your commute, from animal feed to pharmaceutical excipients — our products serve essential needs that touch millions of lives every day.",
+      "signature": "Day by day, cultivating the future.",
+      "signatureDescription": "This signature captures our identity — a cooperative rooted in patience, perseverance, and the conviction that each day's work builds a better tomorrow for the earth and for people.",
+      "strategyLink": "Strategy"
+    },
+    "history": {
+      "title": "History",
+      "description": "From a cooperative distillery in Origny to a global agri-food group — our journey from 1932 to today.",
+      "eyebrow": "About Us",
+      "heroDescription": "Discover the key milestones that shaped Tereos from a small northern France distillery into a world-leading cooperative.",
+      "timelineTitle": "Key Milestones",
+      "cooperativeTitle": "Birth of a Cooperative",
+      "expansionTitle": "Global Expansion",
+      "diversificationTitle": "Diversification & Innovation"
+    },
+    "innovationPriority": {
+      "title": "Innovation",
+      "description": "Explore our six innovation priorities driving research and development across agronomy, energy, nutrition, and more.",
+      "eyebrow": "Innovation",
+      "learnMore": "Learn more",
+      "discoverOthers": "Explore Other Priorities",
+      "backToInnovation": "Back to Innovation",
+      "prioritiesTitle": "Our 6 Innovation Priorities"
+    },
+    "credits": {
+      "title": "Credits",
+      "description": "Website conception, development, and hosting credits.",
+      "conceptionTitle": "Conception & Development",
+      "hostingTitle": "Hosting",
+      "copyrightTitle": "Copyright"
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "Our commitment to product quality, safety, hygiene, and traceability standards.",
+      "eyebrow": "Products",
+      "commitmentTitle": "Our Quality Commitment",
+      "charterTitle": "Quality Charter",
+      "documentsTitle": "Quality Documentation"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "businesses": "Businesses",
+    "resources": "Resources",
+    "legal": "Legal",
+    "sitemap": "Sitemap",
+    "newsletter": {
+      "title": "Stay Informed",
+      "description": "Subscribe to our newsletter for the latest news, reports, and insights.",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe",
+      "success": "Thank you for subscribing!",
+      "privacy": "By subscribing, you agree to our Privacy Policy."
+    },
+    "social": "Follow Us",
+    "contact": {
+      "title": "Contact Us",
+      "email": "info@tereosa.com",
+      "phone": "+66 2 XXX XXXX"
+    }
+  }
+}

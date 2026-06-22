@@ -1,0 +1,27 @@
+{
+  "name": "Tereos Açúcar e Energia S.A.",
+  "short_name": "Tereos",
+  "description": "Global leader in sugar, bioenergy, and sustainable agriculture",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#E30613",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/tereosa-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

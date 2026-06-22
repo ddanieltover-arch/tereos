@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-and-types:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci --legacy-peer-deps
+      - run: npm run type-check
+      - run: npm run lint
+
+  accessibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci --legacy-peer-deps
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Build site
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ci-placeholder
+          NEXT_PUBLIC_SANITY_DATASET: production
+
+      - name: Start production server
+        run: npm start &
+        env:
+          PORT: 3000
+
+      - name: Wait for server
+        run: npx wait-on http://127.0.0.1:3000/en --timeout 120000
+
+      - name: axe-core audit (WCAG 2.1 AA)
+        run: npm run audit:a11y
+        env:
+          AUDIT_URL: http://127.0.0.1:3000
+          A11Y_FAIL_ON_VIOLATIONS: true
