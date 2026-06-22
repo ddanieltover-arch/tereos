@@ -808,5 +808,15 @@
       "email": "sales@tereosa.com",
       "phone": "+66 2 XXX XXXX"
     }
+  },
+  "emails": {
+    "userAcknowledgment": {
+      "previewText": "ขอบคุณที่ติดต่อ Tereos เราได้รับข้อความของคุณแล้ว",
+      "thankYou": "ขอบคุณที่ติดต่อเรา",
+      "dear": "เรียน คุณ {firstName} {lastName},",
+      "received": "เราได้รับข้อความของคุณเกี่ยวกับ <strong>&quot;{subject}&quot;</strong> แล้ว ทีมงานของเราจะตรวจสอบข้อซักถามของคุณและติดต่อกลับโดยเร็วที่สุด",
+      "yourMessage": "ข้อความของคุณ",
+      "globalOperations": "Global Operations"
+    }
   }
 }

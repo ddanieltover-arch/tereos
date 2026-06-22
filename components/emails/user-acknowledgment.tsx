@@ -18,6 +18,14 @@ interface UserAcknowledgmentEmailProps {
   lastName: string;
   subject: string;
   message: string;
+  translations: {
+    previewText: string;
+    thankYou: string;
+    dear: string;
+    received: string;
+    yourMessage: string;
+    globalOperations: string;
+  };
 }
 
 export const UserAcknowledgmentEmail = ({
@@ -25,8 +33,9 @@ export const UserAcknowledgmentEmail = ({
   lastName,
   subject,
   message,
+  translations,
 }: UserAcknowledgmentEmailProps) => {
-  const previewText = `Thank you for contacting Tereos. We have received your message.`;
+  const previewText = translations.previewText;
 
   return (
     <Html>
@@ -44,19 +53,17 @@ export const UserAcknowledgmentEmail = ({
             />
           </Section>
           
-          <Heading style={h1}>Thank you for reaching out</Heading>
+          <Heading style={h1}>{translations.thankYou}</Heading>
           
           <Text style={text}>
-            Dear {firstName} {lastName},
+            {translations.dear.replace('{firstName}', firstName).replace('{lastName}', lastName)}
           </Text>
-          <Text style={text}>
-            We have received your message regarding <strong>&quot;{subject}&quot;</strong>. Our team will review your inquiry and get back to you as soon as possible.
-          </Text>
+          <Text style={text} dangerouslySetInnerHTML={{ __html: translations.received.replace('{subject}', subject) }} />
           
           <Hr style={hr} />
 
           <Section style={section}>
-            <Heading style={h2}>Your Message</Heading>
+            <Heading style={h2}>{translations.yourMessage}</Heading>
             <Text style={messageText}>{message}</Text>
           </Section>
           
@@ -64,7 +71,7 @@ export const UserAcknowledgmentEmail = ({
           
           <Text style={footer}>
             Tereos Açúcar e Energia S.A.<br />
-            Global Operations<br />
+            {translations.globalOperations}<br />
             <Link href="https://tereosa.com" style={footerLink}>tereosa.com</Link>
           </Text>
         </Container>

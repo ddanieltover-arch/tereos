@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { getClientIp, rateLimit } from '@/lib/api/rate-limit';
 import { Resend } from 'resend';
+import { getTranslations } from 'next-intl/server';
 import { InternalNotificationEmail } from '@/components/emails/internal-notification';
 import { UserAcknowledgmentEmail } from '@/components/emails/user-acknowledgment';
 
@@ -26,6 +27,7 @@ const contactSchema = z.object({
   department: z.string().min(1, 'Department is required'),
   subject: z.string().min(1, 'Subject is required'),
   message: z.string().min(10, 'Message must be at least 10 characters'),
+  locale: z.string().optional().default('en'),
 });
 
 export async function POST(request: NextRequest) {
@@ -47,10 +49,12 @@ export async function POST(request: NextRequest) {
     const validated = contactSchema.parse(body);
     const routedTo = DEPARTMENT_EMAILS[validated.department] || DEPARTMENT_EMAILS.general;
 
+    const t = await getTranslations({ locale: validated.locale, namespace: 'emails.userAcknowledgment' });
+
     if (process.env.RESEND_API_KEY) {
       await Promise.all([
         resend.emails.send({
-          from: 'Tereos Corporate <noreply@tereosa.com>',
+          from: 'Tereos Corporate <sales@tereosa.com>',
           to: routedTo,
           replyTo: validated.email,
           subject: `New Inquiry: ${validated.subject}`,
@@ -65,14 +69,22 @@ export async function POST(request: NextRequest) {
           }),
         }),
         resend.emails.send({
-          from: 'Tereos Corporate <noreply@tereosa.com>',
+          from: 'Tereos Corporate <sales@tereosa.com>',
           to: validated.email,
-          subject: 'Thank you for contacting Tereos',
+          subject: t('thankYou'),
           react: UserAcknowledgmentEmail({
             firstName: validated.firstName,
             lastName: validated.lastName,
             subject: validated.subject,
             message: validated.message,
+            translations: {
+              previewText: t('previewText'),
+              thankYou: t('thankYou'),
+              dear: t('dear'),
+              received: t('received'),
+              yourMessage: t('yourMessage'),
+              globalOperations: t('globalOperations'),
+            }
           }),
         }),
       ]);
