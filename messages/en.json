@@ -151,7 +151,24 @@
     },
     "news": {
       "title": "Latest News",
-      "cta": "View All News"
+      "badge": "News & Updates",
+      "cta": "View All News",
+      "readTime": "{minutes} min read",
+      "demo1": {
+        "title": "Tereos Announces Major Expansion of Bioenergy Operations in Southeast Asia",
+        "excerpt": "The company invests €200M in new biomass power facilities to support regional renewable energy goals.",
+        "category": "Press Release"
+      },
+      "demo2": {
+        "title": "Sustainability Report 2025: Record Carbon Reduction Achieved",
+        "excerpt": "Tereos reports a 35% reduction in carbon emissions across all operations, exceeding targets ahead of schedule.",
+        "category": "Sustainability"
+      },
+      "demo3": {
+        "title": "Partnership with Thai Farmers Boosts Sustainable Sugarcane Production",
+        "excerpt": "New cooperative program reaches 5,000+ farming families with advanced agricultural training and resources.",
+        "category": "Community"
+      }
     },
     "investors": {
       "title": "Investor Relations",
@@ -596,9 +613,22 @@
     },
     "innovation": {
       "title": "Innovation",
+      "badge": "Innovation",
       "description": "Discover our R&D initiatives, new technologies, bioenergy research, and agricultural innovation projects.",
-      "overviewTitle": "Pioneering the Future",
-      "overviewDescription": "Our R&D teams push the boundaries of sustainable agriculture, bioenergy production, and circular economy solutions.",
+      "overviewTitle": "Pioneering the Future of Agriculture & Energy",
+      "overviewDescription": "Our R&D teams are pushing the boundaries of what's possible in sustainable agriculture, bioenergy production, and circular economy solutions.",
+      "demo1": {
+        "title": "Next-Gen Biofuel Research",
+        "description": "Developing second and third-generation biofuels from agricultural waste and algae for carbon-neutral energy."
+      },
+      "demo2": {
+        "title": "Smart Agriculture IoT",
+        "description": "IoT sensors and AI-powered analytics optimizing water usage, fertilizer application, and harvest timing."
+      },
+      "demo3": {
+        "title": "Sustainable Crop Varieties",
+        "description": "Researching drought-resistant and high-yield sugarcane varieties to improve farmer productivity."
+      },
       "statRd": "Annual R&D Investment",
       "statResearchers": "Researchers",
       "statPatents": "Active Patents",

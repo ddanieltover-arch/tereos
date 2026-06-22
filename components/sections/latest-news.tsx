@@ -10,6 +10,7 @@ import { StaggerContainer, staggerChildVariants } from '@/components/animations/
 import { cn, formatDate } from '@/lib/utils';
 import { TEREOS_PHOTOS } from '@/lib/content/photography';
 import type { NewsArticle } from '@/types';
+import { useTranslations } from 'next-intl';
 
 interface LatestNewsProps {
   title: string;
@@ -19,34 +20,36 @@ interface LatestNewsProps {
 }
 
 export function LatestNews({ title, articles, cta, locale = 'en' }: LatestNewsProps) {
+  const t = useTranslations('home.news');
+
   // Demo articles if none provided
   const demoArticles: NewsArticle[] = articles.length > 0 ? articles : [
     {
       id: '1',
-      title: 'Tereos Announces Major Expansion of Bioenergy Operations in Southeast Asia',
-      excerpt: 'The company invests €200M in new biomass power facilities to support regional renewable energy goals.',
+      title: t('demo1.title'),
+      excerpt: t('demo1.excerpt'),
       image: TEREOS_PHOTOS.factory,
-      category: 'Press Release',
+      category: t('demo1.category'),
       newsroomType: 'press-release',
       publishedAt: '2026-06-15',
       slug: 'bioenergy-expansion-sea',
     },
     {
       id: '2',
-      title: 'Sustainability Report 2025: Record Carbon Reduction Achieved',
-      excerpt: 'Tereos reports a 35% reduction in carbon emissions across all operations, exceeding targets ahead of schedule.',
+      title: t('demo2.title'),
+      excerpt: t('demo2.excerpt'),
       image: TEREOS_PHOTOS.newsSustainability,
-      category: 'Sustainability',
+      category: t('demo2.category'),
       newsroomType: 'news',
       publishedAt: '2026-05-28',
       slug: 'sustainability-report-2025',
     },
     {
       id: '3',
-      title: 'Partnership with Thai Farmers Boosts Sustainable Sugarcane Production',
-      excerpt: 'New cooperative program reaches 5,000+ farming families with advanced agricultural training and resources.',
+      title: t('demo3.title'),
+      excerpt: t('demo3.excerpt'),
       image: TEREOS_PHOTOS.field,
-      category: 'Community',
+      category: t('demo3.category'),
       newsroomType: 'news',
       publishedAt: '2026-05-10',
       slug: 'farmer-partnership-thailand',
@@ -60,7 +63,7 @@ export function LatestNews({ title, articles, cta, locale = 'en' }: LatestNewsPr
         <FadeIn className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-12">
           <div>
             <span className="inline-block text-label uppercase tracking-widest text-primary font-semibold mb-4">
-              News & Updates
+              {t('badge')}
             </span>
             <h2 className="text-h2 font-bold text-neutral-900 text-balance">{title}</h2>
           </div>
@@ -114,7 +117,7 @@ export function LatestNews({ title, articles, cta, locale = 'en' }: LatestNewsPr
                     </span>
                     <span className="flex items-center gap-1.5">
                       <Clock className="w-3.5 h-3.5" />
-                      5 min read
+                      {t('readTime', { minutes: 5 })}
                     </span>
                   </div>
                   <h3 className="text-h4 font-bold text-neutral-900 mb-3 group-hover:text-primary transition-colors line-clamp-2">

@@ -150,7 +150,24 @@
     },
     "news": {
       "title": "Últimas Notícias",
-      "cta": "Ver Todas as Notícias"
+      "badge": "Notícias & Atualizações",
+      "cta": "Ver Todas as Notícias",
+      "readTime": "{minutes} min de leitura",
+      "demo1": {
+        "title": "Tereos Anuncia Grande Expansão de Operações de Bioenergia no Sudeste Asiático",
+        "excerpt": "A empresa investe 200 milhões de euros em novas instalações de energia de biomassa para apoiar as metas regionais de energia renovável.",
+        "category": "Comunicado de Imprensa"
+      },
+      "demo2": {
+        "title": "Relatório de Sustentabilidade 2025: Recorde de Redução de Carbono Alcançado",
+        "excerpt": "A Tereos relata uma redução de 35% nas emissões de carbono em todas as operações, superando as metas antes do prazo.",
+        "category": "Sustentabilidade"
+      },
+      "demo3": {
+        "title": "Parceria com Agricultores Tailandeses Impulsiona a Produção Sustentável de Cana-de-açúcar",
+        "excerpt": "O novo programa cooperativo atinge mais de 5.000 famílias de agricultores com treinamento e recursos agrícolas avançados.",
+        "category": "Comunidade"
+      }
     },
     "investors": {
       "title": "Relações com Investidores",
@@ -544,9 +561,22 @@
     },
     "innovation": {
       "title": "Inovação",
+      "badge": "Inovação",
       "description": "Descubra nossas iniciativas de P&D e projetos de inovação agrícola",
-      "overviewTitle": "Pioneirismo no Futuro",
-      "overviewDescription": "Nossas equipes de P&D expandem os limites da agricultura e bioenergia sustentáveis",
+      "overviewTitle": "Sendo Pioneiros no Futuro da Agricultura e Energia",
+      "overviewDescription": "Nossas equipes de P&D estão expandindo os limites do que é possível em agricultura sustentável, produção de bioenergia e soluções de economia circular.",
+      "demo1": {
+        "title": "Pesquisa de Biocombustíveis de Próxima Geração",
+        "description": "Desenvolvendo biocombustíveis de segunda e terceira geração a partir de resíduos agrícolas e algas para energia neutra em carbono."
+      },
+      "demo2": {
+        "title": "Agricultura Inteligente IoT",
+        "description": "Sensores IoT e análises baseadas em IA otimizando o uso da água, aplicação de fertilizantes e tempo de colheita."
+      },
+      "demo3": {
+        "title": "Variedades de Culturas Sustentáveis",
+        "description": "Pesquisando variedades de cana-de-açúcar resistentes à seca e de alto rendimento para melhorar a produtividade dos agricultores."
+      },
       "statRd": "Investimento Anual em P&D",
       "statResearchers": "Pesquisadores",
       "statPatents": "Patentes Ativas",

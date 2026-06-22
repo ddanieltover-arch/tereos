@@ -11,6 +11,8 @@ import { StaggerContainer, staggerChildVariants } from '@/components/animations/
 import { cn } from '@/lib/utils';
 import { TEREOS_PHOTOS } from '@/lib/content/photography';
 
+import { useTranslations } from 'next-intl';
+
 interface InnovationItem {
   id: string;
   title: string;
@@ -24,31 +26,33 @@ interface InnovationSpotlightProps {
   innovations?: InnovationItem[];
 }
 
-const demoInnovations = [
-  {
-    id: '1',
-    title: 'Next-Gen Biofuel Research',
-    description: 'Developing second and third-generation biofuels from agricultural waste and algae for carbon-neutral energy.',
-    image: TEREOS_PHOTOS.laboratory,
-    icon: <FlaskConical className="w-6 h-6" />,
-  },
-  {
-    id: '2',
-    title: 'Smart Agriculture IoT',
-    description: 'IoT sensors and AI-powered analytics optimizing water usage, fertilizer application, and harvest timing.',
-    image: TEREOS_PHOTOS.agriculture,
-    icon: <Cpu className="w-6 h-6" />,
-  },
-  {
-    id: '3',
-    title: 'Sustainable Crop Varieties',
-    description: 'Researching drought-resistant and high-yield sugarcane varieties to improve farmer productivity.',
-    image: TEREOS_PHOTOS.field,
-    icon: <Sprout className="w-6 h-6" />,
-  },
-];
-
 export function InnovationSpotlight({ locale, innovations = [] }: InnovationSpotlightProps) {
+  const t = useTranslations('pages.innovation');
+
+  const demoInnovations = [
+    {
+      id: '1',
+      title: t('demo1.title'),
+      description: t('demo1.description'),
+      image: TEREOS_PHOTOS.laboratory,
+      icon: <FlaskConical className="w-6 h-6" />,
+    },
+    {
+      id: '2',
+      title: t('demo2.title'),
+      description: t('demo2.description'),
+      image: TEREOS_PHOTOS.agriculture,
+      icon: <Cpu className="w-6 h-6" />,
+    },
+    {
+      id: '3',
+      title: t('demo3.title'),
+      description: t('demo3.description'),
+      image: TEREOS_PHOTOS.field,
+      icon: <Sprout className="w-6 h-6" />,
+    },
+  ];
+
   const displayInnovations = innovations.length > 0 ? innovations : demoInnovations;
 
   return (
@@ -56,14 +60,13 @@ export function InnovationSpotlight({ locale, innovations = [] }: InnovationSpot
       <div className="container-custom">
         <FadeIn className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-label uppercase tracking-widest text-accent-gold font-semibold mb-4">
-            Innovation
+            {t('badge')}
           </span>
           <h2 className="text-h2 font-bold text-neutral-900 mb-6 text-balance">
-            Pioneering the Future of Agriculture & Energy
+            {t('overviewTitle')}
           </h2>
           <p className="text-body-lg text-neutral-600 text-balance">
-            Our R&D teams are pushing the boundaries of what&apos;s possible in sustainable agriculture,
-            bioenergy production, and circular economy solutions.
+            {t('overviewDescription')}
           </p>
         </FadeIn>
 
@@ -102,7 +105,7 @@ export function InnovationSpotlight({ locale, innovations = [] }: InnovationSpot
                   href={`/${locale}/innovation`}
                   className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:gap-2 transition-all"
                 >
-                  Learn More <ArrowRight className="w-4 h-4" />
+                  {t('learnMore')} <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
             </motion.div>
