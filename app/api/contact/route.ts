@@ -2,6 +2,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { getClientIp, rateLimit } from '@/lib/api/rate-limit';
+import { Resend } from 'resend';
+import { InternalNotificationEmail } from '@/components/emails/internal-notification';
+import { UserAcknowledgmentEmail } from '@/components/emails/user-acknowledgment';
+
+const resend = new Resend(process.env.RESEND_API_KEY || 're_123');
 
 const DEPARTMENT_EMAILS: Record<string, string> = {
   sales: 'sales@tereosa.com',
@@ -43,7 +48,34 @@ export async function POST(request: NextRequest) {
     const routedTo = DEPARTMENT_EMAILS[validated.department] || DEPARTMENT_EMAILS.general;
 
     if (process.env.RESEND_API_KEY) {
-      // await resend.emails.send({ to: routedTo, cc: 'sales@tereosa.com', ... })
+      await Promise.all([
+        resend.emails.send({
+          from: 'Tereos Corporate <noreply@tereosa.com>',
+          to: routedTo,
+          replyTo: validated.email,
+          subject: `New Inquiry: ${validated.subject}`,
+          react: InternalNotificationEmail({
+            firstName: validated.firstName,
+            lastName: validated.lastName,
+            email: validated.email,
+            phone: validated.phone,
+            department: validated.department,
+            subject: validated.subject,
+            message: validated.message,
+          }),
+        }),
+        resend.emails.send({
+          from: 'Tereos Corporate <noreply@tereosa.com>',
+          to: validated.email,
+          subject: 'Thank you for contacting Tereos',
+          react: UserAcknowledgmentEmail({
+            firstName: validated.firstName,
+            lastName: validated.lastName,
+            subject: validated.subject,
+            message: validated.message,
+          }),
+        }),
+      ]);
     } else {
       console.log('[Contact] Message routed to:', routedTo, {
         from: validated.email,
