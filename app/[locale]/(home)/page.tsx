@@ -15,6 +15,7 @@ import { ContactCTA } from '@/components/sections/contact-cta';
 import { getHomePageContent } from '@/lib/sanity/fetch';
 import { globalLocations } from '@/lib/content/sprint4';
 import { DIVISION_PHOTOS } from '@/lib/content/photography';
+import { getAlternateLanguages, getCanonicalUrl } from '@/lib/seo/metadata';
 
 interface HomePageProps {
   params: Promise<{ locale: string }>;
@@ -28,12 +29,8 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: `https://tereosa.com/${locale}`,
-      languages: {
-        'en': 'https://tereosa.com/en',
-        'th': 'https://tereosa.com/th',
-        'pt-BR': 'https://tereosa.com/pt-br',
-      },
+      canonical: getCanonicalUrl(locale),
+      languages: getAlternateLanguages(),
     },
   };
 }

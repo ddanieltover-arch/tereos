@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { locales, type Locale } from '@/lib/i18n/config';
+import { OPEN_GRAPH_LOCALE, HTML_LANG } from '@/lib/i18n/locale-meta';
 import { getAlternateLanguages, getCanonicalUrl } from '@/lib/seo/metadata';
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/seo/schemas';
 import { getSiteUrl, OG_IMAGE } from '@/lib/site';
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }: LocaleLayoutProps) {
     },
     openGraph: {
       type: 'website',
-      locale: locale === 'pt-br' ? 'pt_BR' : locale === 'th' ? 'th_TH' : 'en_US',
+      locale: OPEN_GRAPH_LOCALE[locale as Locale] ?? 'en_US',
       url: getCanonicalUrl(locale),
       siteName: 'Tereos Açúcar e Energia S.A.',
       title: t('title'),
@@ -116,7 +117,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <html
-      lang={locale}
+      lang={HTML_LANG[locale as Locale] ?? locale}
       className={`${inter.variable} ${jetbrainsMono.variable} ${notoSansThai.variable}`}
       suppressHydrationWarning
     >

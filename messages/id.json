@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Tereos Açúcar e Energia S.A. — Pemimpin Global Gula, Bioenergi & Pertanian",
+    "description": "Tereos Açúcar e Energia S.A. adalah pemimpin global berbasis di Thailand dalam produksi gula, bioenergi, inovasi pertanian, dan solusi pangan berkelanjutan. Hari demi hari, menumbuhkan masa depan."
+  },
+  "navigation": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "governance": "Tata Kelola",
+    "businesses": "Bisnis Kami",
+    "products": "Produk",
+    "sustainability": "Keberlanjutan",
+    "investors": "Hubungan Investor",
+    "news": "Berita & Media",
+    "pressContact": "Kontak Pers",
+    "careers": "Karier",
+    "global": "Kehadiran Global",
+    "innovation": "Inovasi",
+    "downloads": "Pusat Unduhan",
+    "consumerBrands": "Merek Konsumen",
+    "contact": "Kontak",
+    "search": "Cari",
+    "language": "Bahasa",
+    "learnMore": "Pelajari lebih lanjut",
+    "contactUs": "Hubungi Kami",
+    "strategy": "Strategi",
+    "history": "Sejarah",
+    "purpose": "Tujuan Kami",
+    "rawMaterials": "Bahan Baku",
+    "cultivateNetZero": "Cultivate Net-Zero",
+    "quality": "Dokumen Kualitas",
+    "navDesc": {
+      "about": "Sejarah, visi, dan strategi global kami",
+      "governance": "Dewan direksi, komite, dan manajemen",
+      "global": "Kantor dan operasi di 40+ negara",
+      "innovation": "R&D dan teknologi pertanian",
+      "businessesOverview": "Ikhtisar kelima divisi",
+      "products": "Katalog produk dan spesifikasi lengkap",
+      "marketsOverview": "Semua pasar yang kami layani",
+      "productLinesOverview": "Semua lini produk",
+      "consumerBrands": "Merek gula, organik, dan protein ritel",
+      "news": "Berita terbaru, siaran pers, dan dokumen media",
+      "pressContact": "Pertanyaan media dan juru bicara",
+      "annualResults": "Laporan keuangan triwulanan dan tahunan",
+      "regulatedInfo": "Pengungkapan regulasi dan materi RUPS",
+      "financialCalendar": "Kalender hasil dan dividen",
+      "irPresentations": "Presentasi investor dan konferensi",
+      "strategy": "Model koperasi dan rantai nilai kami",
+      "history": "Dari 1932 hingga koperasi global",
+      "purpose": "Menumbuhkan untuk Bumi dan manusia",
+      "rawMaterials": "Tebu, bit, gandum, jagung & alfalfa",
+      "cultivateNetZero": "Dekarbonisasi & pertanian regeneratif",
+      "quality": "Piagam kualitas dan dokumentasi"
+    },
+    "navBusiness": {
+      "sugar": "Gula",
+      "bioenergy": "Bioenergi",
+      "agriculture": "Pertanian",
+      "food": "Bahan Makanan",
+      "renewable": "Solusi Terbarukan"
+    },
+    "navMarket": {
+      "food": "Makanan & Minuman",
+      "energy": "Energi & Biofuel",
+      "feed": "Pakan Ternak",
+      "chemicals": "Kimia Hijau",
+      "pharma": "Farmasi & Kosmetik",
+      "personalCare": "Perawatan Pribadi",
+      "paper": "Kertas & Selulosa"
+    },
+    "navProductLine": {
+      "alcohol": "Alkohol",
+      "bioethanol": "Bioetanol",
+      "sugarSweeteners": "Gula & Pemanis",
+      "starches": "Pati",
+      "maltodextrins": "Maltodekstrin",
+      "organic": "Produk Organik",
+      "dietaryFibres": "Serat Pangan",
+      "animalFeedFibres": "Serat & Pakan Ternak",
+      "proteins": "Protein"
+    },
+    "navFeatured": {
+      "about": {
+        "title": "Menumbuhkan Masa Depan",
+        "description": "Temukan misi kami mentransformasi pertanian secara berkelanjutan."
+      },
+      "businesses": {
+        "title": "Lima Divisi Global",
+        "description": "Gula, bioenergi, pertanian, dan lainnya."
+      },
+      "products": {
+        "title": "Produk Berkualitas",
+        "description": "Jelajahi katalog gula, etanol, dan bahan khusus kami."
+      },
+      "sustainability": {
+        "title": "Komitmen ESG",
+        "description": "Pengurangan karbon, pengelolaan air, dan dampak komunitas."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "ctaPrimary": "Jelajahi Dunia Kami",
+      "ctaSecondary": "Komitmen Keberlanjutan Kami"
+    },
+    "overview": {
+      "title": "Kekuatan Global di Pertanian & Energi",
+      "description": "Dari Thailand ke dunia, kami mengubah sumber daya pertanian menjadi produk penting yang memberi makan, bahan bakar, dan energi bagi komunitas secara berkelanjutan.",
+      "stats": {
+        "sugar": "15J+ Ton Gula/Tahun",
+        "countries": "40+ Negara",
+        "employees": "25.000+ Karyawan",
+        "revenue": "€5M+ Pendapatan"
+      }
+    },
+    "businesses": {
+      "title": "Divisi Bisnis Kami",
+      "description": "Kapabilitas beragam, tujuan bersatu di seluruh rantai nilai pertanian.",
+      "sugar": {
+        "title": "Gula",
+        "description": "Produksi gula kelas dunia dari tebu hingga kristal untuk pasar global."
+      },
+      "bioenergy": {
+        "title": "Bioenergi",
+        "description": "Solusi energi terbarukan termasuk etanol, biomassa, dan biofuel generasi baru."
+      },
+      "agriculture": {
+        "title": "Pertanian",
+        "description": "Praktik pertanian berkelanjutan, layanan petani, dan program kemitraan."
+      },
+      "food": {
+        "title": "Bahan Makanan",
+        "description": "Bahan khusus, pemanis, dan solusi fungsional untuk industri pangan global."
+      },
+      "renewable": {
+        "title": "Solusi Terbarukan",
+        "description": "Inovasi ekonomi sirkular dari produk sampingan pertanian."
+      }
+    },
+    "sustainability": {
+      "title": "Komitmen Keberlanjutan Kami",
+      "description": "Kami mengurangi jejak lingkungan sambil meningkatkan dampak sosial positif.",
+      "metrics": {
+        "carbon": "Pengurangan Karbon",
+        "water": "Efisiensi Air",
+        "energy": "Energi Terbarukan",
+        "community": "Investasi Komunitas"
+      },
+      "cta": "Jelajahi Laporan ESG Kami"
+    },
+    "news": {
+      "title": "Berita Terbaru",
+      "badge": "Berita & Pembaruan",
+      "cta": "Semua Berita",
+      "readTime": "{minutes} menit baca",
+      "demo1": {
+        "title": "Tereos Umumkan Ekspansi Besar Bioenergi di Asia Tenggara",
+        "excerpt": "Investasi €200 juta untuk fasilitas biomassa baru.",
+        "category": "Siaran Pers"
+      },
+      "demo2": {
+        "title": "Laporan Keberlanjutan 2025: Rekor Pengurangan Karbon",
+        "excerpt": "Pengurangan emisi 35% di semua operasi.",
+        "category": "Keberlanjutan"
+      },
+      "demo3": {
+        "title": "Kemitraan dengan Petani Thailand untuk Tebu Berkelanjutan",
+        "excerpt": "Program koperasi menjangkau 5.000+ keluarga petani.",
+        "category": "Komunitas"
+      }
+    },
+    "investors": {
+      "title": "Hubungan Investor",
+      "description": "Tata kelola transparan dan pertumbuhan berkelanjutan untuk pemangku kepentingan.",
+      "cta": "Kunjungi Portal IR"
+    },
+    "careers": {
+      "title": "Bergabung dengan Tim Global Kami",
+      "description": "Jadilah bagian organisasi yang membentuk masa depan pertanian dan energi.",
+      "cta": "Jelajahi Karier"
+    },
+    "global": {
+      "eyebrow": "Kehadiran Global",
+      "title": "Menjangkau Benua, Menghubungkan Pasar",
+      "description": "Dari Thailand, jelajahi kantor dan mitra di 40+ negara.",
+      "cta": "Jelajahi Kehadiran Global"
+    }
+  },
+  "common": {
+    "readMore": "Baca Selengkapnya",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "download": "Unduh",
+    "search": "Cari",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "next": "Berikutnya",
+    "previous": "Sebelumnya",
+    "loading": "Memuat…",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "success": "Berhasil!",
+    "required": "Wajib",
+    "optional": "Opsional",
+    "allRightsReserved": "© {year} Tereos Açúcar e Energia S.A. Co., Ltd. Hak cipta dilindungi.",
+    "menu": "Menu",
+    "backToTop": "Kembali ke atas",
+    "skipToContent": "Lewati ke konten utama",
+    "cookieMessage": "Kami menggunakan cookie dan analitik untuk meningkatkan pengalaman Anda.",
+    "cookieAccept": "Terima",
+    "cookieDecline": "Tolak",
+    "cookiePrivacy": "Kebijakan Privasi"
+  },
+  "footer": {
+    "company": "Perusahaan",
+    "businesses": "Bisnis",
+    "resources": "Sumber Daya",
+    "legal": "Hukum",
+    "sitemap": "Peta Situs",
+    "newsletter": {
+      "title": "Tetap Terinformasi",
+      "description": "Berlangganan newsletter untuk berita dan laporan terbaru.",
+      "placeholder": "Masukkan alamat email Anda",
+      "button": "Berlangganan",
+      "success": "Terima kasih telah berlangganan!",
+      "privacy": "Dengan berlangganan, Anda menyetujui Kebijakan Privasi kami."
+    },
+    "social": "Ikuti Kami",
+    "contact": {
+      "title": "Hubungi Kami",
+      "email": "sales@tereosa.com",
+      "phone": "+66 2 XXX XXXX"
+    }
+  }
+}

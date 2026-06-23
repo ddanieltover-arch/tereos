@@ -52,11 +52,11 @@ export function Footer() {
       { label: navT('careers'), href: `/${locale}/careers` },
     ],
     businesses: [
-      { label: 'Sugar', href: `/${locale}/our-businesses/sugar` },
-      { label: 'Bioenergy', href: `/${locale}/our-businesses/bioenergy` },
-      { label: 'Agriculture', href: `/${locale}/our-businesses/agriculture` },
-      { label: 'Food Ingredients', href: `/${locale}/our-businesses/food-ingredients` },
-      { label: 'Renewable Solutions', href: `/${locale}/our-businesses/renewable-solutions` },
+      { label: navT('navBusiness.sugar'), href: `/${locale}/our-businesses/sugar` },
+      { label: navT('navBusiness.bioenergy'), href: `/${locale}/our-businesses/bioenergy` },
+      { label: navT('navBusiness.agriculture'), href: `/${locale}/our-businesses/agriculture` },
+      { label: navT('navBusiness.food'), href: `/${locale}/our-businesses/food-ingredients` },
+      { label: navT('navBusiness.renewable'), href: `/${locale}/our-businesses/renewable-solutions` },
     ],
     resources: [
       { label: navT('news'), href: `/${locale}/news-media` },

@@ -2,7 +2,6 @@ import type { LegalDocumentId } from './types';
 import { legalDocumentsEn } from './en';
 import { legalDocumentsTh } from './th';
 import { legalDocumentsPtBr } from './pt-br';
-import type { Locale } from '@/lib/i18n/config';
 
 const documentsByLocale = {
   en: legalDocumentsEn,
@@ -11,7 +10,10 @@ const documentsByLocale = {
 } as const;
 
 export function getLegalDocument(locale: string, id: LegalDocumentId) {
-  const docs = documentsByLocale[locale as Locale] ?? legalDocumentsEn;
+  const docs =
+    locale in documentsByLocale
+      ? documentsByLocale[locale as keyof typeof documentsByLocale]
+      : legalDocumentsEn;
   return docs[id];
 }
 

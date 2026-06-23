@@ -14,7 +14,7 @@ export interface DocumentAsset {
   fileSize: string;
   category: string;
   year: number;
-  language: 'en' | 'th' | 'pt-br' | 'all';
+  language: 'en' | 'fr' | 'pt-br' | 'cs' | 'th' | 'id' | 'all';
   title: string;
   gated?: boolean;
   coverImage?: string;

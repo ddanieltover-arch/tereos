@@ -1,3 +1,5 @@
+import { HTML_LANG } from '@/lib/i18n/locale-meta';
+import { isValidLocale } from '@/lib/i18n/config';
 import { getSiteUrl } from '@/lib/site';
 
 export function generateOrganizationSchema() {
@@ -38,7 +40,7 @@ export function generateWebSiteSchema(locale: string) {
     '@type': 'WebSite',
     name: 'Tereos Açúcar e Energia S.A.',
     url: `${siteUrl}/${locale}`,
-    inLanguage: locale === 'pt-br' ? 'pt-BR' : locale,
+    inLanguage: isValidLocale(locale) ? HTML_LANG[locale] : locale,
     publisher: {
       '@type': 'Organization',
       name: 'Tereos Açúcar e Energia S.A.',

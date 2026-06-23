@@ -1,6 +1,7 @@
 
 import { revalidatePath, revalidateTag } from 'next/cache';
 import { NextRequest, NextResponse } from 'next/server';
+import { locales } from '@/lib/i18n/config';
 
 const TYPE_PATHS: Record<string, string[]> = {
   businessDivision: ['/', '/our-businesses'],
@@ -33,8 +34,6 @@ export async function POST(request: NextRequest) {
     }
 
     const paths = docType ? TYPE_PATHS[docType] || ['/'] : ['/'];
-    const locales = ['en', 'th', 'pt-br'];
-
     for (const locale of locales) {
       for (const route of paths) {
         revalidatePath(`/${locale}${route}`);

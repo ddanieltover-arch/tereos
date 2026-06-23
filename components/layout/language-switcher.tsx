@@ -7,6 +7,8 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Globe, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { locales, localeLabels, localeFlags, type Locale } from '@/lib/i18n/config';
+import { trackLanguageSwitch } from '@/lib/i18n/analytics';
+import { LOCALE_STORAGE_KEY } from '@/lib/i18n/locale-meta';
 
 interface LanguageSwitcherProps {
   isScrolled?: boolean;
@@ -32,11 +34,21 @@ export function LanguageSwitcher({ isScrolled = false, className }: LanguageSwit
 
   useEffect(() => {
     try {
-      localStorage.setItem('tereosa-locale', locale);
+      localStorage.setItem(LOCALE_STORAGE_KEY, locale);
     } catch {
       /* ignore */
     }
   }, [locale]);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsOpen(false);
+    };
+    if (isOpen) {
+      document.addEventListener('keydown', handleKeyDown);
+    }
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen]);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -83,7 +95,10 @@ export function LanguageSwitcher({ isScrolled = false, className }: LanguageSwit
                     ? 'text-primary bg-primary/5 font-medium'
                     : 'text-neutral-700 hover:bg-neutral-50'
                 )}
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  trackLanguageSwitch(locale, loc);
+                  setIsOpen(false);
+                }}
               >
                 <span aria-hidden>{localeFlags[loc]}</span>
                 <span className="uppercase text-xs w-8 text-neutral-400">{loc}</span>

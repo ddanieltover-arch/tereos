@@ -27,7 +27,7 @@ export const downloadDocument = defineType({
       name: 'language',
       title: 'Language',
       type: 'string',
-      options: { list: ['en', 'th', 'pt-br', 'all'] },
+      options: { list: ['en', 'fr', 'pt-br', 'cs', 'th', 'id', 'all'] },
     }),
     defineField({ name: 'file', title: 'File', type: 'file' }),
     defineField({
