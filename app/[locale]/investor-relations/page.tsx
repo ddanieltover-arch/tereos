@@ -15,6 +15,7 @@ import {
   DOCUMENT_CATEGORY_LABELS,
   getIrDocuments,
 } from '@/lib/investor/documents';
+import { PAGE_EYEBROW } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -45,7 +46,7 @@ export default async function InvestorRelationsPage({
   return (
     <>
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow={PAGE_EYEBROW}
         title={t('title')}
         description={t('description')}
         dark
@@ -53,11 +54,12 @@ export default async function InvestorRelationsPage({
 
       <section className="py-section bg-white border-b border-neutral-100">
         <div className="container-custom">
-          <FadeIn className="grid md:grid-cols-3 gap-6">
+          <FadeIn className="grid md:grid-cols-4 gap-6">
             {[
-              { value: '€5B+', label: t('statRevenue') },
-              { value: '40+', label: t('statCountries') },
-              { value: '25K+', label: t('statEmployees') },
+              { value: '€7.1bn', label: t('statRevenue') },
+              { value: '14', label: t('statCountries') },
+              { value: '15,800', label: t('statEmployees') },
+              { value: '10,300', label: t('statGrowers') },
             ].map((stat) => (
               <div key={stat.label} className="p-6 bg-neutral-50 rounded-2xl text-center">
                 <p className="text-3xl font-bold text-primary">{stat.value}</p>

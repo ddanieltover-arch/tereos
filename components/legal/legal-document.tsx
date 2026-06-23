@@ -68,6 +68,11 @@ export function LegalDocumentPage({
   tableOfContentsLabel,
   needHelpLabel,
 }: LegalDocumentProps) {
+  const lastUpdated = new Date('2026-06-01T00:00:00Z').toLocaleDateString(locale, {
+    month: 'long',
+    year: 'numeric',
+  });
+
   return (
     <>
       <PageHero
@@ -83,7 +88,7 @@ export function LegalDocumentPage({
               <div className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm text-neutral-600 shadow-subtle">
                 <CalendarDays className="h-4 w-4 text-primary" aria-hidden />
                 <span>
-                  {document.lastUpdated}: <strong className="font-semibold text-neutral-900">June 2026</strong>
+                  {document.lastUpdated}: <strong className="font-semibold text-neutral-900">{lastUpdated}</strong>
                 </span>
               </div>
             </div>

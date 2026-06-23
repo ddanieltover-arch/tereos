@@ -10,7 +10,8 @@ export interface NavItem {
 }
 
 export interface StatItem {
-  value: number;
+  value?: number;
+  display?: string;
   prefix?: string;
   suffix?: string;
   label: string;

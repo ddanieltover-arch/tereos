@@ -26,7 +26,7 @@ export default async function MarketsIndexPage({
   return (
     <>
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow="Tereos"
         title={t('marketsIndexTitle')}
         description={t('marketsIndexDescription')}
       />

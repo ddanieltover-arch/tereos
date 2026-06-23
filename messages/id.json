@@ -107,10 +107,14 @@
       "title": "Kekuatan Global di Pertanian & Energi",
       "description": "Dari Thailand ke dunia, kami mengubah sumber daya pertanian menjadi produk penting yang memberi makan, bahan bakar, dan energi bagi komunitas secara berkelanjutan.",
       "stats": {
-        "sugar": "15J+ Ton Gula/Tahun",
-        "countries": "40+ Negara",
-        "employees": "25.000+ Karyawan",
-        "revenue": "€5M+ Pendapatan"
+        "sugar": "Produsen gula terbesar di dunia",
+        "countries": "Negara operasi",
+        "employees": "Karyawan di seluruh dunia",
+        "revenue": "Omzet (2023/24)",
+        "sugarValue": "Ke-2",
+        "countriesValue": "14",
+        "employeesValue": "15.800",
+        "revenueValue": "€7,1 miliar"
       }
     },
     "businesses": {
@@ -136,6 +140,13 @@
         "title": "Solusi Terbarukan",
         "description": "Inovasi ekonomi sirkular dari produk sampingan pertanian."
       }
+    },
+    "productsShowcase": {
+      "eyebrow": "Produk Kami",
+      "title": "Produk Berkualitas untuk Dunia yang Berkelanjutan",
+      "description": "Dari kristal gula hingga biofuel, portofolio produk kami yang beragam melayani berbagai industri di seluruh dunia dengan kualitas dan keberlanjutan tanpa kompromi.",
+      "learnMore": "Pelajari Lebih Lanjut",
+      "viewAll": "Lihat Semua Produk"
     },
     "sustainability": {
       "title": "Komitmen Keberlanjutan Kami",
@@ -184,6 +195,16 @@
       "title": "Menjangkau Benua, Menghubungkan Pasar",
       "description": "Dari Thailand, jelajahi kantor dan mitra di 40+ negara.",
       "cta": "Jelajahi Kehadiran Global"
+    },
+    "contactCta": {
+      "eyebrow": "Hubungi kami",
+      "title": "Kontak Anda di Tereos",
+      "cta": "Hubungi kami",
+      "email": "Email",
+      "press": "Pers",
+      "office": "Kantor pusat",
+      "inquiry": "Pertanyaan",
+      "inquiryValue": "Kirim pesan"
     }
   },
   "common": {
@@ -210,6 +231,43 @@
     "cookieDecline": "Tolak",
     "cookiePrivacy": "Kebijakan Privasi"
   },
+  "pages": {
+    "contact": {
+      "attachmentComingSoon": "Segera hadir"
+    },
+    "pressContact": {
+      "deadlinePlaceholder": "mis. 24 Juni 2026, 17:00 ICT"
+    },
+    "innovationPriority": {
+      "keyHighlights": "Sorotan Utama"
+    },
+    "system": {
+      "notFoundTitle": "Halaman tidak ditemukan",
+      "notFoundDescription": "Halaman yang Anda cari mungkin telah dihapus, diganti nama, atau sementara tidak tersedia.",
+      "backHome": "Kembali ke Beranda",
+      "search": "Cari",
+      "errorTitle": "Terjadi kesalahan",
+      "errorDescription": "Mohon maaf atas ketidaknyamanannya. Silakan coba lagi atau hubungi dukungan jika masalah berlanjut.",
+      "tryAgain": "Coba Lagi"
+    },
+    "about": {
+      "groupEnvironment": "Lingkungan yang terus berubah",
+      "groupPartner": "Mitra terkemuka",
+      "groupAgriculture": "Menghubungkan dunia pertanian dan masyarakat"
+    },
+    "sustainability": {
+      "introTitle": "Kami bertindak berkelanjutan",
+      "pillarsTitle": "Peta jalan CSR kami"
+    },
+    "ir": {
+      "statGrowers": "Anggota koperasi petani"
+    },
+    "careers": {
+      "statGrowers": "Anggota koperasi petani",
+      "statSites": "Situs industri di seluruh dunia",
+      "statTurnover": "Omzet (2023/24)"
+    }
+  },
   "footer": {
     "company": "Perusahaan",
     "businesses": "Bisnis",
@@ -227,8 +285,8 @@
     "social": "Ikuti Kami",
     "contact": {
       "title": "Hubungi Kami",
-      "email": "sales@tereosa.com",
-      "phone": "+66 2 XXX XXXX"
+      "email": "contact-presse@tereos.com",
+      "phone": "—"
     }
   }
 }

@@ -32,7 +32,7 @@
     "navDesc": {
       "about": "Notre histoire, notre vision et notre stratégie mondiale",
       "governance": "Conseil d'administration, comités et direction",
-      "global": "Bureaux et opérations dans plus de 40 pays",
+      "global": "Bureaux et opérations dans 14 pays",
       "innovation": "R&D et technologies agricoles",
       "businessesOverview": "Vue d'ensemble des cinq divisions",
       "products": "Catalogue produits et spécifications",
@@ -104,13 +104,17 @@
       "ctaSecondary": "Notre engagement durable"
     },
     "overview": {
-      "title": "Une force mondiale dans l'agriculture et l'énergie",
-      "description": "De la Thaïlande au monde entier, nous transformons les ressources agricoles en produits essentiels qui nourrissent, alimentent et dynamisent les communautés, tout en préservant l'environnement.",
+      "title": "Un groupe coopératif de référence",
+      "description": "Tereos transforme betterave, canne, blé, maïs et luzerne en produits essentiels pour l'alimentation, l'énergie renouvelable et l'industrie — avec plus de 10 300 coopérateurs dans le monde.",
       "stats": {
-        "sugar": "15 M+ tonnes de sucre/an",
-        "countries": "40+ pays",
-        "employees": "25 000+ collaborateurs",
-        "revenue": "5 Md€+ de chiffre d'affaires"
+        "sugar": "Producteur mondial de sucre",
+        "countries": "Pays d'implantation",
+        "employees": "Collaborateurs dans le monde",
+        "revenue": "Chiffre d'affaires (2023/24)",
+        "sugarValue": "2e",
+        "countriesValue": "14",
+        "employeesValue": "15 800",
+        "revenueValue": "7,1 Md€"
       }
     },
     "businesses": {
@@ -136,6 +140,13 @@
         "title": "Solutions renouvelables",
         "description": "Innovations d'économie circulaire valorisant les coproduits agricoles."
       }
+    },
+    "productsShowcase": {
+      "eyebrow": "Nos produits",
+      "title": "Des produits de qualité pour un monde durable",
+      "description": "Des cristaux de sucre aux biocarburants, notre portefeuille diversifié sert des industries du monde entier avec une qualité et une durabilité sans compromis.",
+      "learnMore": "En savoir plus",
+      "viewAll": "Voir tous les produits"
     },
     "sustainability": {
       "title": "Notre engagement durable",
@@ -184,6 +195,18 @@
       "title": "À travers les continents, connecter les marchés",
       "description": "Depuis la Thaïlande, explorez nos sites et partenaires dans plus de 40 pays.",
       "cta": "Explorer notre présence mondiale"
+    },
+    "contactCta": {
+      "eyebrow": "Contact",
+      "title": "Vos contacts chez Tereos",
+      "description": "Pour les ventes, partenariats, relations investisseurs ou presse, nos équipes sont à votre écoute.",
+      "cta": "Nous contacter",
+      "email": "E-mail",
+      "press": "Presse",
+      "office": "Siège",
+      "officeValue": "Tereos Europe Campus, Seine-et-Marne, France",
+      "inquiry": "Demande",
+      "inquiryValue": "Envoyer un message"
     }
   },
   "common": {
@@ -210,6 +233,47 @@
     "cookieDecline": "Refuser",
     "cookiePrivacy": "Politique de confidentialité"
   },
+  "pages": {
+    "contact": {
+      "attachmentComingSoon": "Bientôt disponible"
+    },
+    "pressContact": {
+      "deadlinePlaceholder": "ex. 24 juin 2026, 17:00 ICT"
+    },
+    "innovationPriority": {
+      "keyHighlights": "Points clés"
+    },
+    "system": {
+      "notFoundTitle": "Page introuvable",
+      "notFoundDescription": "La page que vous recherchez a peut-être été supprimée, renommée ou temporairement indisponible.",
+      "backHome": "Retour à l'accueil",
+      "search": "Rechercher",
+      "errorTitle": "Une erreur est survenue",
+      "errorDescription": "Nous nous excusons pour la gêne occasionnée. Veuillez réessayer ou contacter l'assistance si le problème persiste.",
+      "tryAgain": "Réessayer"
+    },
+    "about": {
+      "groupEnvironment": "Un environnement en constante évolution",
+      "groupPartner": "Un partenaire de référence",
+      "groupAgriculture": "Créer le lien entre le monde agricole et la société",
+      "governanceCtaDescription": "Découvrez comment le Conseil, les comités et la Direction garantissent transparence et responsabilité au sein du groupe coopératif."
+    },
+    "sustainability": {
+      "introTitle": "Nous agissons durablement",
+      "pillarsTitle": "Notre feuille de route RSE"
+    },
+    "ir": {
+      "statGrowers": "Coopérateurs agriculteurs",
+      "statRevenue": "Chiffre d'affaires (2023/24)",
+      "statCountries": "Pays d'implantation",
+      "statEmployees": "Collaborateurs dans le monde"
+    },
+    "careers": {
+      "statGrowers": "Coopérateurs agriculteurs",
+      "statSites": "Sites industriels dans le monde",
+      "statTurnover": "Chiffre d'affaires (2023/24)"
+    }
+  },
   "footer": {
     "company": "Entreprise",
     "businesses": "Activités",
@@ -227,8 +291,8 @@
     "social": "Suivez-nous",
     "contact": {
       "title": "Nous contacter",
-      "email": "sales@tereosa.com",
-      "phone": "+66 2 XXX XXXX"
+      "email": "contact-presse@tereos.com",
+      "phone": "—"
     }
   }
 }

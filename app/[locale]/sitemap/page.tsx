@@ -70,7 +70,7 @@ export default async function SitemapPage({
   return (
     <>
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow="Tereos"
         title={t('title')}
         description={t('description')}
       />

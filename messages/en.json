@@ -33,7 +33,7 @@
       "navDesc": {
       "about": "Our history, vision, and global strategy",
       "governance": "Board of Directors, committees, and management",
-      "global": "Offices and operations across 40+ countries",
+      "global": "Offices and operations across 14 countries",
       "innovation": "R&D and agricultural technology",
       "businessesOverview": "Overview of all five divisions",
       "products": "Full product catalog and specifications",
@@ -105,13 +105,17 @@
       "ctaSecondary": "Our Sustainability Commitment"
     },
     "overview": {
-      "title": "A Global Force in Agriculture & Energy",
-      "description": "From Thailand to the world, we transform agricultural resources into essential products that feed, fuel, and power communities while championing environmental stewardship and sustainable growth.",
+      "title": "A leading cooperative group",
+      "description": "Tereos transforms sugar beet, sugar cane, wheat, corn and alfalfa into essential products for food, renewable energy, and industry — with more than 10,300 grower members worldwide.",
       "stats": {
-        "sugar": "15M+ Tons Sugar/Year",
-        "countries": "40+ Countries",
-        "employees": "25,000+ Employees",
-        "revenue": "€5B+ Revenue"
+        "sugarValue": "2nd",
+        "sugar": "Largest global sugar producer",
+        "countriesValue": "14",
+        "countries": "Countries of operation",
+        "employeesValue": "15,800",
+        "employees": "Employees worldwide",
+        "revenueValue": "€7.1bn",
+        "revenue": "Turnover (2023/24)"
       }
     },
     "businesses": {
@@ -138,6 +142,13 @@
         "description": "Circular economy innovations transforming agricultural byproducts into valuable resources for a sustainable tomorrow."
       }
     },
+    "productsShowcase": {
+      "eyebrow": "Our Products",
+      "title": "Quality Products for a Sustainable World",
+      "description": "From sugar crystals to biofuels, our diverse product portfolio serves industries worldwide with uncompromising quality and sustainability.",
+      "learnMore": "Learn More",
+      "viewAll": "View All Products"
+    },
     "sustainability": {
       "title": "Our Sustainability Commitment",
       "description": "We are committed to reducing our environmental footprint while increasing positive social impact across every aspect of our operations.",
@@ -155,19 +166,19 @@
       "cta": "View All News",
       "readTime": "{minutes} min read",
       "demo1": {
-        "title": "Tereos Announces Major Expansion of Bioenergy Operations in Southeast Asia",
-        "excerpt": "The company invests €200M in new biomass power facilities to support regional renewable energy goals.",
+        "title": "Technip Energies, Airbus, Safran and Tereos join forces on Sustainable Aviation Fuel in France",
+        "excerpt": "A major SAF production project leveraging Tereos ethanol expertise and industrial footprint.",
         "category": "Press Release"
       },
       "demo2": {
-        "title": "Sustainability Report 2025: Record Carbon Reduction Achieved",
-        "excerpt": "Tereos reports a 35% reduction in carbon emissions across all operations, exceeding targets ahead of schedule.",
-        "category": "Sustainability"
+        "title": "2025/26 Annual results",
+        "excerpt": "Tereos publishes full-year financial results for the 2025/26 campaign.",
+        "category": "Press Release"
       },
       "demo3": {
-        "title": "Partnership with Thai Farmers Boosts Sustainable Sugarcane Production",
-        "excerpt": "New cooperative program reaches 5,000+ farming families with advanced agricultural training and resources.",
-        "category": "Community"
+        "title": "Tereos launches Actifiber®: a new corn-based fibre for nutritional balance",
+        "excerpt": "A functional ingredient designed to combine pleasure and nutritional balance in everyday food.",
+        "category": "Press Release"
       }
     },
     "investors": {
@@ -183,8 +194,20 @@
     "global": {
       "eyebrow": "Global Presence",
       "title": "Reaching Across Continents, Connecting Markets",
-      "description": "From our headquarters in Thailand, explore offices, production facilities, and partner hubs across 40+ countries on our interactive map.",
+      "description": "Explore offices, production facilities, and partner hubs across 14 countries on our interactive map.",
       "cta": "Explore Global Presence"
+    },
+    "contactCta": {
+      "eyebrow": "Get in Touch",
+      "title": "Your contacts at Tereos",
+      "description": "For sales, partnerships, investor relations, or media inquiries, our teams are ready to connect with you.",
+      "cta": "Contact Us",
+      "email": "Email",
+      "press": "Press",
+      "office": "Headquarters",
+      "officeValue": "Tereos Europe Campus, Seine-et-Marne, France",
+      "inquiry": "Inquiry",
+      "inquiryValue": "Send a message"
     }
   },
   "common": {
@@ -214,8 +237,12 @@
   "pages": {
     "about": {
       "title": "About Us",
-      "description": "Learn about Tereos — our purpose, manifesto, and history as a global leader in sugar, bioenergy, and sustainable agriculture.",
-      "heroDescription": "From a cooperative distillery in northern France to the world's second largest sugar producer — discover our purpose and history.",
+      "description": "Tereos is the world's second largest sugar producer and a cooperative group with more than 10,300 grower members across 14 countries.",
+      "heroDescription": "A leading cooperative in sugar, alcohol and starch — linking the agricultural world with society through sustainable plant-based solutions.",
+      "groupEnvironment": "A constantly changing environment",
+      "groupPartner": "A leading partner",
+      "groupAgriculture": "Creating a link between the agricultural world and society",
+      "governanceCtaDescription": "Learn how our Board of Directors, committees, and Management Committee uphold transparency and accountability across the cooperative group.",
       "purpose": "Our Purpose",
       "manifesto": "Manifesto",
       "purposeStatementLabel": "Our Purpose",
@@ -251,8 +278,8 @@
       "backToBusinesses": "All Businesses"
     },
     "products": {
-      "title": "Products",
-      "description": "Premium sugar, biofuels, food ingredients, and renewable solutions for global markets.",
+      "title": "Activities & Products",
+      "description": "Tereos is a leading cooperative group in the sugar, alcohol and starch markets — from sugar and sweeteners to ethanol, wheat proteins and native starches.",
       "search": "Search products...",
       "all": "All",
       "learnMore": "Learn more",
@@ -283,11 +310,11 @@
     },
     "consumerBrands": {
       "title": "Consumer Brands",
-      "description": "Discover Tereos retail brands — from everyday cane sugars to organic specialties and plant-based proteins.",
-      "intro1": "Tereos brings quality and innovation to consumers through iconic retail brands in Europe, the Americas, and Asia-Pacific — and refined cane sugars for retail partners across Thailand and ASEAN.",
-      "intro2": "From Beghin Say and La Perruche to Guarani, Sucre & Stévia, and Ensemble, our portfolio reflects the same traceability, farmer partnerships, and sustainable production that define Tereos industrial excellence.",
+      "description": "Tereos is present with consumer brands that are popular locally and recognized as labels of quality and innovation.",
+      "intro1": "Tereos is present on the market with well-established consumer brands. These brands represent quality, know-how and innovation in their local markets.",
+      "intro2": "From Béghin Say and La Perruche to TTD, Guarani and Sucreries de Bourbon, the portfolio reflects Tereos roots in sugar processing and long-standing customer trust.",
       "brandsTitle": "Our Brands",
-      "brandsDescription": "Flagship Tereos names on retail shelves worldwide, plus refined cane sugars for Southeast Asian markets.",
+      "brandsDescription": "Leading Tereos consumer brands in Europe, Brazil and Réunion Island.",
       "highlights": "Product highlights",
       "statBrands": "Featured consumer brands",
       "statCountries": "Countries where Tereos operates",
@@ -300,7 +327,9 @@
     },
     "sustainability": {
       "title": "Sustainability",
-      "description": "Our ESG commitment to carbon reduction, water stewardship, renewable energy, and community impact.",
+      "description": "Our CSR roadmap embodies credible commitments steered at the highest level — from regenerative agriculture to decarbonisation and ethical principles.",
+      "introTitle": "We act sustainably",
+      "pillarsTitle": "Our CSR roadmap",
       "reports": "ESG Reports & Documents",
       "target": "Target",
       "download": "Download"
@@ -318,6 +347,7 @@
       "subject": "Subject",
       "message": "Message",
       "attachment": "Attach document (PDF, max 10MB) — coming soon",
+      "attachmentComingSoon": "Coming soon",
       "submit": "Send Message",
       "selectDepartment": "Select a department",
       "successTitle": "Message Sent!",
@@ -345,7 +375,7 @@
       "related": "Related Articles",
       "pressContact": "Press contact",
       "pressContactDescription": "For media inquiries and interview requests, contact our communications team.",
-      "pressEmail": "sales@tereosa.com",
+      "pressEmail": "contact-presse@tereos.com",
       "pressContactLink": "Press contact page",
       "gatedTitle": "Request document",
       "gatedDescription": "Enter your email to receive this document.",
@@ -369,6 +399,7 @@
       "inquiryType": "Type of inquiry",
       "selectInquiry": "Select inquiry type",
       "deadline": "Deadline (optional)",
+      "deadlinePlaceholder": "e.g. 24 June 2026, 17:00 ICT",
       "subject": "Subject",
       "message": "Your message",
       "submit": "Send inquiry",
@@ -390,9 +421,10 @@
     "ir": {
       "title": "Investor Relations",
       "description": "Access financial reports, annual results, regulated disclosures, and investor resources.",
-      "statRevenue": "Annual Revenue",
-      "statCountries": "Countries",
-      "statEmployees": "Employees",
+      "statRevenue": "Turnover (2023/24)",
+      "statCountries": "Countries of operation",
+      "statEmployees": "Employees worldwide",
+      "statGrowers": "Grower cooperative members",
       "sectionsTitle": "Finance & reporting",
       "sectionsDescription": "Browse annual and interim results, regulated information, the financial calendar, and investor presentations.",
       "learnMore": "Explore",
@@ -553,17 +585,17 @@
     },
     "careers": {
       "title": "Careers",
-      "description": "Join our global team. Explore job opportunities, employee benefits, and career development programs.",
+      "description": "Join 15,800 colleagues across 14 countries. Discover opportunities in a cooperative group shaping sustainable agriculture and plant-based solutions.",
       "whyTitle": "Why Tereos?",
-      "whyDescription": "Be part of a purpose-driven organization shaping the future of agriculture, energy, and sustainable innovation worldwide.",
-      "benefit1Title": "Global Opportunities",
-      "benefit1Desc": "Work across 40+ countries with international career paths.",
-      "benefit2Title": "Learning & Development",
-      "benefit2Desc": "Continuous training, graduate programs, and leadership development.",
-      "benefit3Title": "Health & Wellbeing",
-      "benefit3Desc": "Comprehensive health coverage and work-life balance programs.",
-      "benefit4Title": "Inclusive Culture",
-      "benefit4Desc": "Diverse teams united by a shared commitment to sustainability.",
+      "whyDescription": "As a cooperative, Tereos links growers, industry and customers worldwide. Our SUSTAIN'2030 programme and international mobility paths help you build a meaningful career.",
+      "benefit1Title": "Cooperative model",
+      "benefit1Desc": "Work in a group owned by more than 10,300 grower members with a long-term vision.",
+      "benefit2Title": "International careers",
+      "benefit2Desc": "38 industrial sites across 14 countries — from France and Brazil to Czech Republic and Thailand.",
+      "benefit3Title": "SUSTAIN'2030",
+      "benefit3Desc": "Graduate and early-career programme combining rotations in agronomy, industry and CSR.",
+      "benefit4Title": "Learning & development",
+      "benefit4Desc": "Continuous training, apprenticeships, and leadership development at every level.",
       "openingsTitle": "Open Positions",
       "openingsDescription": "Find your next role in engineering, sustainability, operations, and more.",
       "all": "All Departments",
@@ -582,17 +614,17 @@
       "submit": "Submit Application",
       "applySuccess": "Application submitted! We will contact you within 5 business days.",
       "applyError": "Failed to submit application. Please try again.",
-      "graduateTitle": "Graduate Program 2026",
-      "graduateDescription": "Two-year rotational program for recent graduates across Thailand, Brazil, and France.",
+      "graduateTitle": "SUSTAIN'2030",
+      "graduateDescription": "International graduate programme with rotations across agronomy, industrial operations, and sustainable development.",
       "graduateCta": "Apply to Graduate Program",
       "valuesTitle": "Our Values",
       "valuesDescription": "The principles that guide how we work with colleagues, farmers, customers, and communities every day.",
       "testimonialsTitle": "Life at Tereos",
       "testimonialsDescription": "Hear from colleagues across engineering, agriculture, sustainability, and commercial teams.",
       "statEmployees": "Employees worldwide",
-      "statCountries": "Countries of operation",
-      "statRecommend": "Would recommend Tereos to a friend",
-      "statTenure": "Average internal promotion cycle",
+      "statSites": "Industrial sites worldwide",
+      "statGrowers": "Grower cooperative members",
+      "statTurnover": "Turnover (2023/24)",
       "atsTitle": "Apply through our careers portal",
       "atsDescription": "All applications are processed through our secure applicant tracking system. Create a profile to apply for multiple roles and track your progress.",
       "atsCta": "Open Careers Portal",
@@ -614,9 +646,9 @@
     "innovation": {
       "title": "Innovation",
       "badge": "Innovation",
-      "description": "Discover our R&D initiatives, new technologies, bioenergy research, and agricultural innovation projects.",
-      "overviewTitle": "Pioneering the Future of Agriculture & Energy",
-      "overviewDescription": "Our R&D teams are pushing the boundaries of what's possible in sustainable agriculture, bioenergy production, and circular economy solutions.",
+      "description": "Innovating to support the needs of a changing world — from agronomy and industrial process to energy, green chemistry, pharmacy and nutrition.",
+      "overviewTitle": "Innovating to support the needs of a changing world",
+      "overviewDescription": "We innovate across the entire value chain to anticipate market needs — developing sustainable agricultural practices, optimising industrial processes, and co-creating solutions with customers.",
       "demo1": {
         "title": "Next-Gen Biofuel Research",
         "description": "Developing second and third-generation biofuels from agricultural waste and algae for carbon-neutral energy."
@@ -629,10 +661,10 @@
         "title": "Sustainable Crop Varieties",
         "description": "Researching drought-resistant and high-yield sugarcane varieties to improve farmer productivity."
       },
-      "statRd": "Annual R&D Investment",
-      "statResearchers": "Researchers",
-      "statPatents": "Active Patents",
-      "statPartners": "University Partners",
+      "statPriorities": "Innovation priorities",
+      "statSites": "Industrial sites",
+      "statValorisation": "Raw materials valorised",
+      "statRenewable": "Renewable energy share",
       "projectsTitle": "Innovation Projects",
       "category": "Category",
       "prioritiesTitle": "Our 6 Innovation Priorities",
@@ -768,10 +800,20 @@
       "title": "Innovation",
       "description": "Explore our six innovation priorities driving research and development across agronomy, energy, nutrition, and more.",
       "eyebrow": "Innovation",
+      "keyHighlights": "Key Highlights",
       "learnMore": "Learn more",
       "discoverOthers": "Explore Other Priorities",
       "backToInnovation": "Back to Innovation",
       "prioritiesTitle": "Our 6 Innovation Priorities"
+    },
+    "system": {
+      "notFoundTitle": "Page Not Found",
+      "notFoundDescription": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "backHome": "Back to Home",
+      "search": "Search",
+      "errorTitle": "Something went wrong",
+      "errorDescription": "We apologize for the inconvenience. Please try again or contact support if the problem persists.",
+      "tryAgain": "Try Again"
     },
     "credits": {
       "title": "Credits",
@@ -806,8 +848,8 @@
     "social": "Follow Us",
     "contact": {
       "title": "Contact Us",
-      "email": "sales@tereosa.com",
-      "phone": "+66 2 XXX XXXX"
+      "email": "contact-presse@tereos.com",
+      "phone": "—"
     }
   },
   "emails": {
@@ -821,3 +863,5 @@
     }
   }
 }
+
+

@@ -26,7 +26,7 @@ export default async function ProductLinesIndexPage({
   return (
     <>
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow="Tereos"
         title={t('productLinesIndexTitle')}
         description={t('productLinesIndexDescription')}
       />

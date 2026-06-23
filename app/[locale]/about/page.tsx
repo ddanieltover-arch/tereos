@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { AboutSections } from '@/components/about/about-sections';
+import { GroupOverview } from '@/components/about/group-overview';
 import { PageHero } from '@/components/shared/page-hero';
 import { FadeIn } from '@/components/animations/fade-in';
 import { buttonVariants } from '@/components/ui/button';
@@ -16,6 +17,7 @@ import {
   aboutTimelineSections,
 } from '@/lib/content/about';
 import { TEREOS_PHOTOS } from '@/lib/content/photography';
+import { PAGE_EYEBROW } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -34,10 +36,17 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   return (
     <>
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow={PAGE_EYEBROW}
         title={t('title')}
         description={t('heroDescription')}
         image={TEREOS_PHOTOS.field}
+      />
+      <GroupOverview
+        labels={{
+          environment: t('groupEnvironment'),
+          partner: t('groupPartner'),
+          agriculture: t('groupAgriculture'),
+        }}
       />
       <AboutSections
         manifesto={aboutManifesto}
@@ -59,7 +68,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <div className="container-custom text-center">
           <FadeIn>
             <p className="text-neutral-600 mb-6 max-w-xl mx-auto">
-              Learn how our Board of Directors, committees, and Management Committee uphold transparency and accountability.
+              {t('governanceCtaDescription')}
             </p>
             <Link
               href={`/${locale}/about/governance`}

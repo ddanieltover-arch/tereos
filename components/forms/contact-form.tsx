@@ -26,6 +26,7 @@ interface ContactFormProps {
     subject: string;
     message: string;
     attachment: string;
+    attachmentComingSoon?: string;
     submit: string;
     selectDepartment: string;
     successTitle: string;
@@ -205,7 +206,13 @@ export function ContactForm({ labels }: ContactFormProps) {
         <label className="flex items-center gap-2 text-sm text-neutral-500 cursor-pointer">
           <Paperclip className="w-4 h-4" />
           <span>{labels.attachment}</span>
-          <input type="file" className="hidden" accept=".pdf,.doc,.docx" disabled title="Coming soon" />
+          <input
+            type="file"
+            className="hidden"
+            accept=".pdf,.doc,.docx"
+            disabled
+            title={labels.attachmentComingSoon}
+          />
         </label>
       </div>
       <Button type="submit" variant="primary" size="lg" className="w-full" disabled={loading}>

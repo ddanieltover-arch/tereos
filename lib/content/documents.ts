@@ -1141,9 +1141,9 @@ export function getFallbackDownloadDocuments(): DownloadDocument[] {
 
 /** Press release slug → document registry id */
 export const PRESS_RELEASE_PDF_MAP: Record<string, string> = {
-  'bioenergy-expansion-sea': 'press-saf-2026',
-  'q1-results-2026': 'ir-results-release-q1-2025-26',
-  'sustainability-report-2025': 'non-financial-statement-2024-25',
+  'saf-france-technip-airbus-safran': 'press-saf-2026',
+  'annual-results-2025-26': 'ir-results-release-annual-2025-26',
+  'half-year-results-2025-26': 'ir-results-release-half-year-2025-26',
 };
 
 export function getPressReleasePdfUrl(slug: string): string | undefined {

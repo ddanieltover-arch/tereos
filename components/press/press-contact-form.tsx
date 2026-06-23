@@ -16,6 +16,7 @@ interface PressContactFormProps {
     inquiryType: string;
     selectInquiry: string;
     deadline: string;
+    deadlinePlaceholder: string;
     subject: string;
     message: string;
     submit: string;
@@ -222,7 +223,7 @@ export function PressContactForm({ labels }: PressContactFormProps) {
           <input
             type="text"
             name="deadline"
-            placeholder="e.g. 24 June 2026, 17:00 ICT"
+            placeholder={labels.deadlinePlaceholder}
             value={formData.deadline}
             onChange={handleChange}
             className={inputClass}

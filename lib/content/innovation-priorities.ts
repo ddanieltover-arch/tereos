@@ -24,26 +24,28 @@ export interface InnovationPriority {
   icon: string;
 }
 
+const SHARED_INTRO =
+  'We are innovating over the entire value chain to achieve optimal competitiveness by anticipating the needs of our markets — from sustainable agricultural practices to industrial process excellence and customer-facing solutions.';
+
 export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'agronomy',
     title: 'Agronomy',
-    subtitle: 'Sustainable Farming Innovation',
+    subtitle: 'Sustainable & resilient farming',
     description:
-      'Developing resilient crop varieties, precision agriculture tools, and sustainable farming practices to support cooperative members.',
-    intro:
-      'Agronomy is at the foundation of our innovation strategy. Our research teams work alongside 12,000+ cooperative member farmers to develop high-yield, disease-resistant beet varieties, optimise irrigation and fertilisation through precision agriculture, and implement regenerative farming practices that improve soil health while maintaining productivity.',
+      'Developing agronomic performance through sustainable and resilient practices that protect soil, biodiversity, water and energy use.',
+    intro: SHARED_INTRO,
     highlights: [
-      'High-yield, disease-resistant variety development',
-      'Precision agriculture and satellite-guided farming',
-      'Cover crop and soil health programmes',
-      'Reduced-input farming methodologies',
-      'Climate change adaptation strategies',
+      'Robotized weeding trials with ecoRobotix at the Tereos Polyculture Farm in Chevrières (Oise, France)',
+      'Agro-industrial Operations Centre in Brazil: 11% reduction in fuel consumption per tonne of cane harvested',
+      'Connected sugar beet and potato sensors to fine-tune harvest machine settings and crop quality',
+      'Variety development, crop rotation and mechanisation for cooperative growers',
+      'Regenerative agriculture aligned with the Cultivate Net-Zero customer offer',
     ],
     stats: [
-      { value: '12,000+', label: 'Partner farmers' },
-      { value: '50+', label: 'Beet varieties tested annually' },
-      { value: '15%', label: 'Yield improvement (decade)' },
+      { value: '10,300+', label: 'Grower partners' },
+      { value: '11%', label: 'Fuel reduction (Brazil AOC)' },
+      { value: '8', label: 'French sugar factories' },
     ],
     image: TEREOS_PHOTOS.agriculture,
     icon: '🌱',
@@ -51,22 +53,21 @@ export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'industrial-process',
     title: 'Industrial Process',
-    subtitle: 'Factory Efficiency & Optimisation',
+    subtitle: 'Efficiency across our sites',
     description:
-      'Optimising extraction, crystallisation, and distillation processes to maximise yield, reduce energy use, and improve product quality.',
-    intro:
-      'Continuous improvement of our industrial processes drives both economic competitiveness and environmental performance. Our R&D engineers work on extraction efficiency, energy recovery systems, water recycling, and digital process control to push the boundaries of what\'s possible in sugar, starch, and ethanol production.',
+      'Optimising extraction, crystallisation and distillation to maximise yield, reduce energy and water consumption, and improve product quality.',
+    intro: SHARED_INTRO,
     highlights: [
-      'Extraction efficiency optimisation',
-      'Digital process control and automation',
-      'Heat recovery and energy integration',
-      'Water recycling and zero-discharge systems',
-      'Quality prediction through AI/ML models',
+      'Continuous improvement of extraction and crystallisation efficiency',
+      'Digital process control and automation across 38 industrial sites',
+      'Heat recovery, water recycling and by-product valorisation (99.8% of raw materials)',
+      'Quality prediction and traceability from field to finished product',
+      'Standardised reporting through integrated operations centres',
     ],
     stats: [
-      { value: '99.8%', label: 'Raw material valorisation' },
-      { value: '30+', label: 'Process patents' },
-      { value: '€50M+', label: 'Annual process investment' },
+      { value: '99.8%', label: 'Raw materials valorised' },
+      { value: '38', label: 'Industrial sites worldwide' },
+      { value: '43M', label: 'Tonnes processed annually' },
     ],
     image: TEREOS_PHOTOS.factory,
     icon: '⚙️',
@@ -74,22 +75,21 @@ export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'energy',
     title: 'Energy',
-    subtitle: 'Renewable Energy & Biogas',
+    subtitle: 'Renewable energy & decarbonisation',
     description:
-      'Advancing biogas, biomass, and cogeneration technologies for carbon-neutral industrial operations and renewable energy supply.',
-    intro:
-      'Energy innovation is central to our decarbonisation strategy. We develop next-generation biogas plants, optimise bagasse cogeneration efficiency, and explore hydrogen production from biomass. Our goal is to make all Tereos industrial sites energy self-sufficient through renewable sources by 2035.',
+      'Advancing biogas, biomass cogeneration and renewable electricity to decarbonise operations and supply low-carbon energy markets.',
+    intro: SHARED_INTRO,
     highlights: [
+      'Sustainable Aviation Fuel project with Technip Energies, Airbus and Safran in France',
+      'Bagasse and beet pulp cogeneration across sugar and ethanol sites',
+      '53% renewable energy share in industrial operations',
       'Biogas production from agricultural residues',
-      'High-efficiency bagasse cogeneration',
-      'Biomass-to-hydrogen pilot projects',
-      'Carbon capture and utilisation research',
-      'Grid-scale renewable electricity export',
+      'Cultivate Net-Zero offer linking field practices to customer decarbonisation goals',
     ],
     stats: [
       { value: '53%', label: 'Renewable energy share' },
-      { value: '16', label: 'Cogeneration sites' },
-      { value: '2035', label: 'Self-sufficiency target' },
+      { value: '2nd', label: 'European ethanol producer' },
+      { value: 'A-', label: 'CDP climate rating (2026)' },
     ],
     image: TEREOS_PHOTOS.renewable,
     icon: '⚡',
@@ -97,22 +97,21 @@ export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'green-chemicals',
     title: 'Green Chemicals',
-    subtitle: 'Plant-Based Chemistry',
+    subtitle: 'Plant-based chemistry',
     description:
-      'Developing bio-based alternatives to fossil-derived chemicals, solvents, and materials from renewable agricultural feedstocks.',
-    intro:
-      'Green chemistry represents a major growth frontier for Tereos. By converting sugars, starches, and alcohols into bio-based building blocks, we enable customers to replace petroleum-derived chemicals with renewable alternatives. Our research spans bio-solvents, bio-plastics precursors, and specialty chemicals for diverse industrial applications.',
+      'Developing bio-based building blocks, solvents and materials from sugars, starches and alcohols to replace fossil-derived chemistry.',
+    intro: SHARED_INTRO,
     highlights: [
-      'Bio-based solvent development',
-      'Renewable polymer and plastic precursors',
-      'Fermentation-derived specialty chemicals',
-      'Life-cycle assessment and eco-design',
-      'Collaborative R&D with chemical industry partners',
+      'PEF bioplastics partnership with Avantium and LVMH GAÏA for releaf® production in Europe',
+      'Bio-based solvents and fermentation-derived specialty chemicals',
+      'Life-cycle assessment and eco-design for industrial customers',
+      'Green chemistry markets supported by Cultivate Net-Zero traceability',
+      'Collaborative R&D with chemical and luxury industry partners',
     ],
     stats: [
-      { value: '20+', label: 'Bio-chemical products' },
-      { value: '8', label: 'Industry partnerships' },
-      { value: '40%', label: 'CO₂ reduction vs fossil' },
+      { value: '100%', label: 'Renewable releaf® polymer' },
+      { value: '3', label: 'Strategic alliance partners (PEF)' },
+      { value: '40%', label: 'CO₂ reduction vs fossil routes' },
     ],
     image: TEREOS_PHOTOS.laboratory,
     icon: '🧪',
@@ -120,17 +119,16 @@ export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'pharmacy',
     title: 'Pharmacy',
-    subtitle: 'Pharmaceutical-Grade Ingredients',
+    subtitle: 'Pharmaceutical-grade ingredients',
     description:
-      'Producing high-purity sugars, alcohols, and excipients meeting stringent pharmaceutical regulatory requirements.',
-    intro:
-      'Our pharmaceutical innovation programme focuses on developing and qualifying excipients, carriers, and active ingredient bases that meet the most demanding pharmacopoeia standards. From pharmaceutical-grade sucrose to specialty alcohols, Tereos serves the pharmaceutical industry with traceable, high-purity ingredients backed by rigorous quality systems.',
+      'High-purity sugars, alcohols and excipients meeting pharmacopoeia standards for pharmaceutical and healthcare applications.',
+    intro: SHARED_INTRO,
     highlights: [
-      'Pharmacopoeia-compliant excipient development',
-      'High-purity alcohol grades for pharmaceutical use',
-      'Controlled-release carrier technologies',
-      'GMP-aligned quality management systems',
-      'Regulatory documentation and support',
+      'Pharmacopoeia-compliant excipient development and qualification',
+      'High-purity alcohol grades for pharmaceutical and sanitiser markets',
+      'GMP-aligned quality management and batch traceability',
+      'Regulatory documentation and customer technical support',
+      'Controlled-release and carrier technologies from plant-based raw materials',
     ],
     stats: [
       { value: '99.9%', label: 'Purity grades achieved' },
@@ -143,22 +141,21 @@ export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'nutrition-health',
     title: 'Nutrition & Health',
-    subtitle: 'Functional Ingredients for Wellbeing',
+    subtitle: 'Functional ingredients',
     description:
-      'Creating functional ingredients, dietary fibres, and nutritional solutions that support health-conscious food innovation.',
-    intro:
-      'Consumer demand for healthier, cleaner-label foods drives our nutrition and health R&D. We develop functional ingredients — from resistant starches and dietary fibres to low-glycaemic sweeteners — that help food manufacturers reformulate products for better nutritional profiles without compromising taste or texture.',
+      'Creating fibres, sweeteners and nutritional solutions — including Actifiber® — that support healthier, cleaner-label food innovation.',
+    intro: SHARED_INTRO,
     highlights: [
-      'Low-glycaemic and reduced-sugar solutions',
-      'Dietary fibre enrichment ingredients',
-      'Resistant starch for gut health',
-      'Clean-label texturising agents',
-      'Nutritional profiling and reformulation support',
+      'Actifiber® — a new corn-based fibre combining pleasure and nutritional balance',
+      'Dietary fibres, resistant starches and low-glycaemic sweetening solutions',
+      'Reformulation support for food manufacturers worldwide',
+      'Clean-label texturising agents from wheat and corn streams',
+      'Nutrition & health aligned with CSR pillar on sustainable daily life',
     ],
     stats: [
+      { value: 'Actifiber®', label: 'Flagship fibre launch (2025)' },
       { value: '30+', label: 'Functional ingredients' },
-      { value: '100+', label: 'Customer formulations' },
-      { value: '5', label: 'Clinical study partnerships' },
+      { value: '100+', label: 'Customer formulations supported' },
     ],
     image: TEREOS_PHOTOS.food,
     icon: '🥗',
@@ -166,17 +163,17 @@ export const innovationPriorities: InnovationPriority[] = [
   {
     slug: 'customer-innovation-centre',
     title: 'Customer Innovation Centre',
-    subtitle: 'Collaborative Innovation Lab',
+    subtitle: 'Co-development with customers',
     description:
-      'A dedicated facility where customers and Tereos experts co-develop tailored ingredient solutions and new product formulations.',
+      'A dedicated facility where customers and Tereos experts co-develop tailored ingredient solutions and accelerate time-to-market.',
     intro:
-      'Our Customer Innovation Centre in Singapore brings together food scientists, application technologists, and customer R&D teams in a state-of-the-art facility. Here, we co-develop custom formulations, test new ingredient applications, and accelerate time-to-market for innovative food and beverage products targeting Asian and global markets.',
+      'The Customer Innovation Centre brings together food scientists, application technologists and customer R&D teams to test formulations, run sensory analysis and prototype new products — turning Tereos ingredients into market-ready solutions.',
     highlights: [
-      'Pilot-scale formulation and testing',
-      'Sensory analysis and consumer testing',
-      'Application-specific ingredient optimisation',
-      'Rapid prototyping for new product development',
-      'Regional market insight and trend analysis',
+      'Pilot-scale formulation and application testing',
+      'Sensory analysis and consumer insight sessions',
+      'Rapid prototyping for food, beverage and nutrition products',
+      'Regional trend analysis for European and export markets',
+      'Direct link to Tereos starch, sweetener and fibre portfolios',
     ],
     stats: [
       { value: '200+', label: 'Customer projects per year' },
@@ -195,3 +192,8 @@ export function getInnovationPriority(slug: string): InnovationPriority | undefi
 export function getOtherPriorities(currentSlug: string): InnovationPriority[] {
   return innovationPriorities.filter((p) => p.slug !== currentSlug);
 }
+
+/** Six core innovation priorities shown on the index (excludes Customer Innovation Centre tile count). */
+export const innovationCorePriorities = innovationPriorities.filter(
+  (p) => p.slug !== 'customer-innovation-centre'
+);

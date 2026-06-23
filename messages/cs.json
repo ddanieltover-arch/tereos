@@ -107,10 +107,14 @@
       "title": "Globální síla v zemědělství a energetice",
       "description": "Z Thajska do světa proměňujeme zemědělské zdroje v produkty, které živí, pohání a podporují komunity při šetrném přístupu k životnímu prostředí.",
       "stats": {
-        "sugar": "15M+ tun cukru/rok",
-        "countries": "40+ zemí",
-        "employees": "25 000+ zaměstnanců",
-        "revenue": "5 mld. €+ tržby"
+        "sugar": "Největší světový producent cukru",
+        "countries": "Zemí působnosti",
+        "employees": "Zaměstnanců celosvětově",
+        "revenue": "Obrat (2023/24)",
+        "sugarValue": "2.",
+        "countriesValue": "14",
+        "employeesValue": "15 800",
+        "revenueValue": "7,1 mld. €"
       }
     },
     "businesses": {
@@ -136,6 +140,13 @@
         "title": "Obnovitelná řešení",
         "description": "Inovace cirkulární ekonomiky z agronomických vedlejších produktů."
       }
+    },
+    "productsShowcase": {
+      "eyebrow": "Naše produkty",
+      "title": "Kvalitní produkty pro udržitelný svět",
+      "description": "Od krystalového cukru po biopaliva, naše rozmanité produktové portfolio slouží průmyslu po celém světě s nekompromisní kvalitou a udržitelností.",
+      "learnMore": "Zjistit více",
+      "viewAll": "Zobrazit všechny produkty"
     },
     "sustainability": {
       "title": "Náš závazek k udržitelnosti",
@@ -184,6 +195,17 @@
       "title": "Přes kontinenty, propojujeme trhy",
       "description": "Z Thajska do více než 40 zemí na interaktivní mapě.",
       "cta": "Globální působnost"
+    },
+    "contactCta": {
+      "eyebrow": "Kontakt",
+      "title": "Vaše kontakty v Tereos",
+      "cta": "Kontaktujte nás",
+      "email": "E-mail",
+      "press": "Tisk",
+      "office": "Sídlo",
+      "officeValue": "Tereos Europe Campus, Seine-et-Marne, Francie",
+      "inquiry": "Dotaz",
+      "inquiryValue": "Poslat zprávu"
     }
   },
   "common": {
@@ -210,6 +232,43 @@
     "cookieDecline": "Odmítnout",
     "cookiePrivacy": "Zásady ochrany osobních údajů"
   },
+  "pages": {
+    "contact": {
+      "attachmentComingSoon": "Již brzy"
+    },
+    "pressContact": {
+      "deadlinePlaceholder": "např. 24. června 2026, 17:00 ICT"
+    },
+    "innovationPriority": {
+      "keyHighlights": "Klíčové body"
+    },
+    "system": {
+      "notFoundTitle": "Stránka nenalezena",
+      "notFoundDescription": "Stránka, kterou hledáte, mohla být odstraněna, přejmenována nebo je dočasně nedostupná.",
+      "backHome": "Zpět na úvod",
+      "search": "Hledat",
+      "errorTitle": "Něco se pokazilo",
+      "errorDescription": "Omlouváme se za komplikace. Zkuste to prosím znovu, nebo kontaktujte podporu, pokud problém přetrvává.",
+      "tryAgain": "Zkusit znovu"
+    },
+    "about": {
+      "groupEnvironment": "Neustále se měnící prostředí",
+      "groupPartner": "Přední partner",
+      "groupAgriculture": "Propojení zemědělství a společnosti"
+    },
+    "sustainability": {
+      "introTitle": "Jednáme udržitelně",
+      "pillarsTitle": "Naše CSR roadmapa"
+    },
+    "ir": {
+      "statGrowers": "Družstevních pěstitelů"
+    },
+    "careers": {
+      "statGrowers": "Družstevních pěstitelů",
+      "statSites": "Průmyslových závodů",
+      "statTurnover": "Obrat (2023/24)"
+    }
+  },
   "footer": {
     "company": "Společnost",
     "businesses": "Podnikání",
@@ -227,8 +286,8 @@
     "social": "Sledujte nás",
     "contact": {
       "title": "Kontaktujte nás",
-      "email": "sales@tereosa.com",
-      "phone": "+66 2 XXX XXXX"
+      "email": "contact-presse@tereos.com",
+      "phone": "—"
     }
   }
 }

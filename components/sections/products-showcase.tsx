@@ -10,6 +10,7 @@ import { FadeIn } from '@/components/animations/fade-in';
 import { StaggerContainer, staggerChildVariants } from '@/components/animations/stagger-container';
 import { cn } from '@/lib/utils';
 import { TEREOS_PHOTOS } from '@/lib/content/photography';
+import { useTranslations } from 'next-intl';
 
 interface ProductsShowcaseProps {
   locale: string;
@@ -59,6 +60,7 @@ const categoryIcons: Record<string, React.ReactNode> = {
 };
 
 export function ProductsShowcase({ locale, products = [] }: ProductsShowcaseProps) {
+  const t = useTranslations('home.productsShowcase');
   const displayProducts = products.length > 0 ? products : demoProducts;
 
   return (
@@ -66,14 +68,13 @@ export function ProductsShowcase({ locale, products = [] }: ProductsShowcaseProp
       <div className="container-custom">
         <FadeIn className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-label uppercase tracking-widest text-primary font-semibold mb-4">
-            Our Products
+            {t('eyebrow')}
           </span>
           <h2 className="text-h2 font-bold text-neutral-900 mb-6 text-balance">
-            Quality Products for a Sustainable World
+            {t('title')}
           </h2>
           <p className="text-body-lg text-neutral-600 text-balance">
-            From sugar crystals to biofuels, our diverse product portfolio serves industries 
-            worldwide with uncompromising quality and sustainability.
+            {t('description')}
           </p>
         </FadeIn>
 
@@ -114,7 +115,7 @@ export function ProductsShowcase({ locale, products = [] }: ProductsShowcaseProp
                     {product.description}
                   </p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary group-hover:gap-2 transition-all">
-                    Learn More <ArrowRight className="w-4 h-4" />
+                    {t('learnMore')} <ArrowRight className="w-4 h-4" />
                   </span>
                 </div>
               </Link>
@@ -130,7 +131,7 @@ export function ProductsShowcase({ locale, products = [] }: ProductsShowcaseProp
               "hover:bg-primary hover:text-white font-semibold rounded-full transition-all duration-300"
             )}
           >
-            View All Products
+            {t('viewAll')}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
         </FadeIn>

@@ -88,51 +88,51 @@ export const globalLocations: GlobalLocation[] = [
 export const innovationProjects = [
   {
     id: 'i1',
-    title: 'Next-Gen Biofuel Research',
+    title: 'Sustainable Aviation Fuel in France',
     description:
-      'Developing second and third-generation biofuels from agricultural waste and algae for carbon-neutral energy production.',
-    image: TEREOS_PHOTOS.laboratory,
-    category: 'Bioenergy',
+      'Technip Energies, Airbus, Safran and Tereos are developing a SAF production project leveraging Tereos ethanol and industrial expertise.',
+    image: TEREOS_PHOTOS.marketEnergy,
+    category: 'Energy',
   },
   {
     id: 'i2',
-    title: 'Smart Agriculture IoT',
+    title: 'Actifiber®',
     description:
-      'IoT sensors and AI-powered analytics optimizing water usage, fertilizer application, and harvest timing across partner farms.',
-    image: TEREOS_PHOTOS.agriculture,
-    category: 'Agriculture',
+      'A new corn-based fibre designed to combine pleasure and nutritional balance in everyday food products.',
+    image: TEREOS_PHOTOS.food,
+    category: 'Nutrition',
   },
   {
     id: 'i3',
-    title: 'Sustainable Crop Varieties',
+    title: 'Cultivate Net-Zero',
     description:
-      'Researching drought-resistant and high-yield sugarcane varieties to improve farmer productivity and climate resilience.',
+      'Customer offer linking regenerative agriculture and decarbonisation from field to finished product — awarded at European level in 2025.',
     image: TEREOS_PHOTOS.field,
-    category: 'Agriculture',
+    category: 'Sustainability',
   },
   {
     id: 'i4',
-    title: 'Carbon Capture from Bagasse',
+    title: 'PEF bioplastics alliance',
     description:
-      'Pilot project capturing CO₂ from biomass combustion for use in green chemicals and carbon credit markets.',
-    image: TEREOS_PHOTOS.marketEnergy,
-    category: 'Renewable',
+      'Partnership with Avantium and LVMH GAÏA to scale releaf® — a 100% renewable and recyclable plant-based polymer.',
+    image: TEREOS_PHOTOS.laboratory,
+    category: 'Green Chemistry',
   },
   {
     id: 'i5',
-    title: 'University Partnership Program',
+    title: 'Robotized weeding',
     description:
-      'Collaborative research with Kasetsart University, INRAE France, and USP Brazil on agricultural biotechnology.',
-    image: TEREOS_PHOTOS.campus,
-    category: 'R&D',
+      'Trials with ecoRobotix at the Tereos Polyculture Farm to bring precision weed control to cooperative growers.',
+    image: TEREOS_PHOTOS.agriculture,
+    category: 'Agronomy',
   },
   {
     id: 'i6',
-    title: 'Circular Packaging Initiative',
+    title: 'Connected sugar beet',
     description:
-      'Developing biodegradable packaging materials from sugarcane-derived polymers for food industry applications.',
-    image: TEREOS_PHOTOS.food,
-    category: 'Food Ingredients',
+      'Sensor devices shaped like beets record harvest impacts so growers can optimise machine settings and crop quality.',
+    image: TEREOS_PHOTOS.factory,
+    category: 'Agronomy',
   },
 ];
 

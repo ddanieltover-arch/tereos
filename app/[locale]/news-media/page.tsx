@@ -39,7 +39,7 @@ export default async function NewsMediaPage({
 
   return (
     <>
-      <PageHero eyebrow="Tereos Açúcar e Energia" title={t('title')} description={t('description')} />
+      <PageHero eyebrow="Tereos" title={t('title')} description={t('description')} />
       <section className="py-section bg-white">
         <div className="container-custom">
           <Suspense fallback={<div className="h-96 animate-pulse bg-neutral-50 rounded-2xl" />}>

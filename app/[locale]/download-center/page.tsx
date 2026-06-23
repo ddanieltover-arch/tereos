@@ -71,7 +71,7 @@ export default async function DownloadCenterPage({
 
   return (
     <>
-      <PageHero eyebrow="Tereos Açúcar e Energia" title={t('title')} description={t('description')} />
+      <PageHero eyebrow="Tereos" title={t('title')} description={t('description')} />
 
       <section className="py-section bg-white border-b border-neutral-100">
         <div className="container-custom">

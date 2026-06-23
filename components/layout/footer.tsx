@@ -100,21 +100,21 @@ export function Footer() {
               />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-sm mb-6">
-              A global leader in sugar, bioenergy, and sustainable agriculture. 
-              Day by day, cultivating the future from Thailand to the world.
+              Cooperative group and global leader in sugar, alcohol and starch.
+              Day by day, cultivating the future.
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>sales@tereosa.com</span>
+                <span>contact-presse@tereos.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+66 2 XXX XXXX</span>
+                <span>—</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>[Thailand Address] | [Brazil Address]</span>
+                <span>Tereos Europe Campus, Seine-et-Marne, France</span>
               </div>
             </div>
           </FadeIn>

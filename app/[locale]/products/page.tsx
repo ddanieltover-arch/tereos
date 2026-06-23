@@ -53,7 +53,7 @@ export default async function ProductsPage({
 
   return (
     <>
-      <PageHero eyebrow="Tereos Açúcar e Energia" title={t('title')} description={t('description')} />
+      <PageHero eyebrow="Tereos" title={t('title')} description={t('description')} />
 
       {/* Raw Materials Section */}
       <section className="py-section-sm bg-white">

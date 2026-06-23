@@ -6,7 +6,7 @@ import { InnovationGrid, InnovationStats } from '@/components/innovation/innovat
 import { InnovationPriorityTiles } from '@/components/innovation/innovation-detail';
 import { FadeIn } from '@/components/animations/fade-in';
 import { innovationProjects } from '@/lib/content/sprint4';
-import { innovationPriorities } from '@/lib/content/innovation-priorities';
+import { innovationPriorities, innovationCorePriorities } from '@/lib/content/innovation-priorities';
 import { TEREOS_PHOTOS } from '@/lib/content/photography';
 
 export async function generateMetadata({
@@ -28,16 +28,16 @@ export default async function InnovationPage({
   const t = await getTranslations({ locale, namespace: 'pages.innovation' });
 
   const stats = [
-    { value: '€80M+', label: t('statRd') },
-    { value: '200+', label: t('statResearchers') },
-    { value: '15', label: t('statPatents') },
-    { value: '12', label: t('statPartners') },
+    { value: '6', label: t('statPriorities') },
+    { value: '38', label: t('statSites') },
+    { value: '99.8%', label: t('statValorisation') },
+    { value: '53%', label: t('statRenewable') },
   ];
 
   return (
     <>
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow="Tereos"
         title={t('title')}
         description={t('description')}
         image={TEREOS_PHOTOS.innovation}
@@ -55,7 +55,7 @@ export default async function InnovationPage({
 
           <div className="mt-12">
             <InnovationPriorityTiles
-              priorities={innovationPriorities}
+              priorities={innovationCorePriorities}
               locale={locale}
               label={t('prioritiesTitle')}
               learnMoreLabel={t('learnMore')}

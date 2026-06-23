@@ -43,7 +43,7 @@ export default async function PressContactPage({
           { name: t('title'), url: '/press-contact' },
         ])}
       />
-      <PageHero eyebrow="Tereos Açúcar e Energia" title={t('title')} description={t('description')} />
+      <PageHero eyebrow="Tereos" title={t('title')} description={t('description')} />
 
       <section className="py-section bg-white">
         <div className="container-custom grid lg:grid-cols-2 gap-16">
@@ -125,6 +125,7 @@ export default async function PressContactPage({
                 inquiryType: t('inquiryType'),
                 selectInquiry: t('selectInquiry'),
                 deadline: t('deadline'),
+                deadlinePlaceholder: t('deadlinePlaceholder'),
                 subject: t('subject'),
                 message: t('message'),
                 submit: t('submit'),

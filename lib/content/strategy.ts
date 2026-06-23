@@ -12,7 +12,7 @@ export interface CircularEconomyStat {
 }
 
 export const strategyIntro =
-  'The agri-food sector is undergoing a profound transformation. Consumer habits are evolving, markets are deregulating, and global competition is intensifying. In this changing landscape, Tereos builds a sound, long-term cooperative model that creates value for its members while serving essential daily needs across food, energy, and industrial markets.';
+  "The agri-foods sector is undergoing a transformation: eating habits are changing, and along with them, so are customers' expectations. At the same time, the deregulation of some markets constitutes a revolution to which Tereos must adapt. We are building a long-term strategy to address this. Our aim is to become a partner to trust for our customers, guaranteeing them the same standards of quality and reliability wherever they operate.";
 
 export const strategySections: StrategySection[] = [
   {
@@ -59,6 +59,6 @@ export const strategySections: StrategySection[] = [
 export const circularEconomyStats: CircularEconomyStat[] = [
   { value: '99.8%', label: 'Raw materials valorised' },
   { value: '53%', label: 'Renewable energy share' },
-  { value: '5.9B€', label: 'Annual revenues' },
+  { value: '€7.1bn', label: 'Turnover (2023/24)' },
   { value: '14', label: 'Countries of operation' },
 ];

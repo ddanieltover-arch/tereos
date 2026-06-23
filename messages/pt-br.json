@@ -32,7 +32,7 @@
     "navDesc": {
       "about": "Nossa história, visão e estratégia global",
       "governance": "Conselho, comitês e gestão",
-      "global": "Escritórios e operações em mais de 40 países",
+      "global": "Escritórios e operações em 14 países",
       "innovation": "P&D e tecnologia agrícola",
       "businessesOverview": "Visão geral das cinco divisões",
       "products": "Catálogo completo de produtos e especificações",
@@ -104,13 +104,17 @@
       "ctaSecondary": "Nosso Compromisso com Sustentabilidade"
     },
     "overview": {
-      "title": "Uma Força Global em Agricultura e Energia",
-      "description": "Da Tailândia para o mundo, transformamos recursos agrícolas em produtos essenciais que alimentam, abastecem e impulsionam comunidades, enquanto defendemos a preservação ambiental.",
+      "title": "Um grupo cooperativo de referência",
+      "description": "A Tereos transforma beterraba, cana, trigo, milho e alfafa em produtos essenciais para alimentação, energia renovável e indústria — com mais de 10.300 cooperados em todo o mundo.",
       "stats": {
-        "sugar": "15M+ Toneladas de Açúcar/Ano",
-        "countries": "40+ Países",
-        "employees": "25.000+ Funcionários",
-        "revenue": "€5B+ Receita"
+        "sugar": "Maior produtor mundial de açúcar",
+        "countries": "Países de atuação",
+        "employees": "Colaboradores no mundo",
+        "revenue": "Faturamento (2023/24)",
+        "sugarValue": "2º",
+        "countriesValue": "14",
+        "employeesValue": "15.800",
+        "revenueValue": "€7,1bi"
       }
     },
     "businesses": {
@@ -136,6 +140,13 @@
         "title": "Soluções Renováveis",
         "description": "Inovações de economia circular transformando subprodutos agrícolas em recursos valiosos."
       }
+    },
+    "productsShowcase": {
+      "eyebrow": "Nossos Produtos",
+      "title": "Produtos de Qualidade para um Mundo Sustentável",
+      "description": "De cristais de açúcar a biocombustíveis, nosso portfólio diversificado atende indústrias em todo o mundo com qualidade e sustentabilidade sem concessões.",
+      "learnMore": "Saiba Mais",
+      "viewAll": "Ver Todos os Produtos"
     },
     "sustainability": {
       "title": "Nosso Compromisso com Sustentabilidade",
@@ -182,8 +193,20 @@
     "global": {
       "eyebrow": "Presença Global",
       "title": "Alcance entre continentes, conexão entre mercados",
-      "description": "A partir da nossa sede na Tailândia, explore escritórios, instalações e parceiros em mais de 40 países no mapa interativo.",
+      "description": "Explore escritórios, fábricas e parceiros em 14 países no mapa interativo.",
       "cta": "Explorar Presença Global"
+    },
+    "contactCta": {
+      "eyebrow": "Entre em contato",
+      "title": "Seus contatos na Tereos",
+      "description": "Para vendas, parcerias, relações com investidores ou imprensa, nossas equipes estão à disposição.",
+      "cta": "Fale conosco",
+      "email": "E-mail",
+      "press": "Imprensa",
+      "office": "Sede",
+      "officeValue": "Tereos Europe Campus, Seine-et-Marne, França",
+      "inquiry": "Consulta",
+      "inquiryValue": "Enviar mensagem"
     }
   },
   "common": {
@@ -222,7 +245,11 @@
       "purposePillars": "Propósito",
       "history": "História",
       "historyIntroLabel": "Visão Geral",
-      "governanceLink": "Explorar Governança"
+      "governanceLink": "Explorar Governança",
+      "groupEnvironment": "Um ambiente em constante mudança",
+      "groupPartner": "Um parceiro de referência",
+      "groupAgriculture": "Criar a ligação entre o mundo agrícola e a sociedade",
+      "governanceCtaDescription": "Saiba como o Conselho, os comités e a Direção garantem transparência e responsabilidade no grupo cooperativo."
     },
     "governance": {
       "title": "Governança",
@@ -285,7 +312,9 @@
       "description": "Nosso compromisso ESG",
       "reports": "Relatórios ESG",
       "target": "Meta",
-      "download": "Download"
+      "download": "Download",
+      "introTitle": "Agimos de forma sustentável",
+      "pillarsTitle": "Nossa rota CSR"
     },
     "contact": {
       "title": "Contato",
@@ -300,6 +329,7 @@
       "subject": "Assunto",
       "message": "Mensagem",
       "attachment": "Anexar documento (em breve)",
+      "attachmentComingSoon": "Em breve",
       "submit": "Enviar Mensagem",
       "selectDepartment": "Selecione um departamento",
       "successTitle": "Mensagem Enviada!",
@@ -323,7 +353,7 @@
       "related": "Artigos Relacionados",
       "pressContact": "Contato de imprensa",
       "pressContactDescription": "Para consultas de mídia e entrevistas, entre em contato com nossa equipe de comunicação.",
-      "pressEmail": "sales@tereosa.com",
+      "pressEmail": "contact-presse@tereos.com",
       "pressContactLink": "Página de contato de imprensa",
       "gatedTitle": "Solicitar documento",
       "gatedDescription": "Informe seu e-mail para receber este documento.",
@@ -338,9 +368,9 @@
     "ir": {
       "title": "Relações com Investidores",
       "description": "Acesse relatórios financeiros, resultados e informações regulamentadas",
-      "statRevenue": "Receita Anual",
-      "statCountries": "Países",
-      "statEmployees": "Funcionários",
+      "statRevenue": "Faturamento (2023/24)",
+      "statCountries": "Países de atuação",
+      "statEmployees": "Colaboradores no mundo",
       "sectionsTitle": "Finanças e relatórios",
       "sectionsDescription": "Consulte resultados anuais e trimestrais, informações regulamentadas, calendário financeiro e apresentações.",
       "learnMore": "Explorar",
@@ -434,7 +464,8 @@
         "presentation": "Apresentações",
         "regulated": "Informações regulamentadas",
         "results": "Resultados e comunicados financeiros"
-      }
+      },
+      "statGrowers": "Cooperados agricultores"
     },
     "downloads": {
       "title": "Central de Downloads",
@@ -544,7 +575,10 @@
       "atsTitle": "Candidate-se pelo portal de carreiras",
       "atsDescription": "Todas as candidaturas são processadas pelo nosso ATS seguro. Crie um perfil para acompanhar suas inscrições.",
       "atsCta": "Abrir Portal de Carreiras",
-      "applyExternal": "Candidatar no Portal"
+      "applyExternal": "Candidatar no Portal",
+      "statGrowers": "Cooperados agricultores",
+      "statSites": "Unidades industriais no mundo",
+      "statTurnover": "Faturamento (2023/24)"
     },
     "global": {
       "title": "Presença Global",
@@ -659,6 +693,7 @@
       "inquiryType": "Tipo de consulta",
       "selectInquiry": "Selecione o tipo",
       "deadline": "Prazo (opcional)",
+      "deadlinePlaceholder": "ex.: 24 junho 2026, 17:00 ICT",
       "subject": "Assunto",
       "message": "Sua mensagem",
       "submit": "Enviar consulta",
@@ -767,10 +802,20 @@
       "title": "Inovação",
       "description": "Explore nossas seis prioridades de inovação que impulsionam P&D em agronomia, energia, nutrição e mais.",
       "eyebrow": "Inovação",
+      "keyHighlights": "Destaques principais",
       "learnMore": "Saiba mais",
       "discoverOthers": "Explore Outras Prioridades",
       "backToInnovation": "Voltar à Inovação",
       "prioritiesTitle": "Nossas 6 Prioridades de Inovação"
+    },
+    "system": {
+      "notFoundTitle": "Página não encontrada",
+      "notFoundDescription": "A página que você procura pode ter sido removida, renomeada ou está temporariamente indisponível.",
+      "backHome": "Voltar para a página inicial",
+      "search": "Buscar",
+      "errorTitle": "Algo deu errado",
+      "errorDescription": "Pedimos desculpas pelo inconveniente. Tente novamente ou entre em contato com o suporte se o problema persistir.",
+      "tryAgain": "Tentar novamente"
     },
     "credits": {
       "title": "Créditos",
@@ -805,8 +850,8 @@
     "social": "Siga-nos",
     "contact": {
       "title": "Contate-nos",
-      "email": "sales@tereosa.com",
-      "phone": "+66 2 XXX XXXX"
+      "email": "contact-presse@tereos.com",
+      "phone": "—"
     }
   },
   "emails": {

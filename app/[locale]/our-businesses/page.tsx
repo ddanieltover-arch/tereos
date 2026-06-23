@@ -40,7 +40,7 @@ export default async function BusinessesPage({ params }: { params: Promise<{ loc
 
   return (
     <>
-      <PageHero eyebrow="Tereos Açúcar e Energia" title={t('title')} description={t('description')} />
+      <PageHero eyebrow="Tereos" title={t('title')} description={t('description')} />
       <section className="py-section bg-white">
         <div className="container-custom grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {divisions.map((division, i) => (

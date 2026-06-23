@@ -1,3 +1,6 @@
+/** Standard PageHero eyebrow across corporate pages. */
+export const PAGE_EYEBROW = 'Tereos';
+
 export function getSiteUrl(): string {
   const url = process.env.NEXT_PUBLIC_SITE_URL || 'https://tereosa.com';
   return url.replace(/\/$/, '');

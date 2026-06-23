@@ -58,7 +58,7 @@ export default async function CareersPage({
 
   return (
     <>
-      <PageHero eyebrow="Tereos Açúcar e Energia" title={t('title')} description={t('description')} />
+      <PageHero eyebrow="Tereos" title={t('title')} description={t('description')} />
 
       <section className="py-section bg-neutral-50">
         <div className="container-custom">

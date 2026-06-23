@@ -61,12 +61,16 @@ export function StatsSection({ title, description, stats }: StatsSectionProps) {
                       {iconMap[key]}
                     </div>
                     <div className="text-h2 font-bold text-neutral-900 mb-2">
-                      <CountUp
-                        end={stat.value}
-                        prefix={stat.prefix}
-                        suffix={stat.suffix}
-                        duration={2.5}
-                      />
+                      {stat.display != null ? (
+                        <span>{stat.display}</span>
+                      ) : (
+                        <CountUp
+                          end={stat.value ?? 0}
+                          prefix={stat.prefix}
+                          suffix={stat.suffix}
+                          duration={2.5}
+                        />
+                      )}
                     </div>
                     <p className="text-sm text-neutral-500 font-medium">{stat.label}</p>
                   </div>

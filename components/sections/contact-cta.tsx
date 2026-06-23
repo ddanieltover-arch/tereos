@@ -1,9 +1,9 @@
-
 'use client';
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { FadeIn } from '@/components/animations/fade-in';
 import { MagneticHover } from '@/components/animations/interactive-hover';
 import { cn } from '@/lib/utils';
@@ -12,17 +12,38 @@ interface ContactCTAProps {
   locale?: string;
 }
 
-const contactMethods = [
-  { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'sales@tereosa.com', href: 'mailto:sales@tereosa.com' },
-  { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+66 2 XXX XXXX', href: 'tel:+6620000000' },
-  { icon: <MapPin className="w-5 h-5" />, label: 'Office', value: '[Thailand Address] | [Brazil Address]', href: '#' },
-  { icon: <MessageSquare className="w-5 h-5" />, label: 'Inquiry', value: 'Send a message', href: '' },
-];
-
 export function ContactCTA({ locale = 'en' }: ContactCTAProps) {
+  const t = useTranslations('home.contactCta');
+
+  const contactMethods = [
+    {
+      icon: <Mail className="w-5 h-5" />,
+      label: t('email'),
+      value: 'contact-presse@tereos.com',
+      href: 'mailto:contact-presse@tereos.com',
+    },
+    {
+      icon: <Phone className="w-5 h-5" />,
+      label: t('press'),
+      value: 'contact-presse@tereos.com',
+      href: 'mailto:contact-presse@tereos.com',
+    },
+    {
+      icon: <MapPin className="w-5 h-5" />,
+      label: t('office'),
+      value: t('officeValue'),
+      href: '#',
+    },
+    {
+      icon: <MessageSquare className="w-5 h-5" />,
+      label: t('inquiry'),
+      value: t('inquiryValue'),
+      href: '',
+    },
+  ];
+
   return (
     <section className="py-section bg-dark relative overflow-hidden grain-overlay">
-      {/* Background decoration */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-secondary/10 rounded-full blur-3xl" />
 
@@ -31,28 +52,23 @@ export function ContactCTA({ locale = 'en' }: ContactCTAProps) {
           <FadeIn direction="left">
             <div>
               <span className="inline-block text-label uppercase tracking-widest text-primary font-semibold mb-4">
-                Get in Touch
+                {t('eyebrow')}
               </span>
-              <h2 className="text-h2 font-bold text-white mb-6 text-balance">
-                Let&apos;s Build a Sustainable Future Together
-              </h2>
-              <p className="text-body-lg text-white/60 leading-relaxed mb-8 text-balance">
-                Whether you&apos;re interested in our products, partnership opportunities, or simply want to learn more
-                about our sustainability initiatives, our team is ready to connect with you.
-              </p>
+              <h2 className="text-h2 font-bold text-white mb-6 text-balance">{t('title')}</h2>
+              <p className="text-body-lg text-white/60 leading-relaxed mb-8 text-balance">{t('description')}</p>
               <MagneticHover strength={0.2}>
-              <Link
-                href={`/${locale}/contact`}
-                className={cn(
-                  "group inline-flex items-center gap-2 px-8 py-4 bg-primary hover:bg-primary-dark",
-                  "text-white font-semibold rounded-full transition-all duration-300",
-                  "hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-0.5",
-                  "animate-pulse-glow"
-                )}
-              >
-                Contact Us
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
+                <Link
+                  href={`/${locale}/contact`}
+                  className={cn(
+                    'group inline-flex items-center gap-2 px-8 py-4 bg-primary hover:bg-primary-dark',
+                    'text-white font-semibold rounded-full transition-all duration-300',
+                    'hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-0.5',
+                    'animate-pulse-glow'
+                  )}
+                >
+                  {t('cta')}
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </MagneticHover>
             </div>
           </FadeIn>
@@ -61,11 +77,11 @@ export function ContactCTA({ locale = 'en' }: ContactCTAProps) {
             <div className="grid grid-cols-2 gap-4">
               {contactMethods.map((method, index) => (
                 <motion.a
-                  key={index}
+                  key={method.label}
                   href={method.href || `/${locale}/contact`}
                   className={cn(
-                    "group p-6 bg-white/5 border border-white/10 rounded-2xl",
-                    "hover:bg-white/10 hover:border-white/20 transition-all duration-300"
+                    'group p-6 bg-white/5 border border-white/10 rounded-2xl',
+                    'hover:bg-white/10 hover:border-white/20 transition-all duration-300'
                   )}
                   whileHover={{ y: -4 }}
                 >

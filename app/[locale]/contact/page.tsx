@@ -28,9 +28,9 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <FadeIn direction="left">
             <div className="space-y-8">
               {[
-                { icon: Mail, label: t('email'), value: 'sales@tereosa.com' },
-                { icon: Phone, label: t('phone'), value: '+66 2 XXX XXXX' },
-                { icon: MapPin, label: t('address'), value: '[Thailand Address] | [Brazil Address]' },
+                { icon: Mail, label: t('email'), value: 'contact-presse@tereos.com' },
+                { icon: Phone, label: t('phone'), value: '—' },
+                { icon: MapPin, label: t('address'), value: 'Tereos Europe Campus, Seine-et-Marne, France' },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
@@ -55,6 +55,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 subject: t('subject'),
                 message: t('message'),
                 attachment: t('attachment'),
+                attachmentComingSoon: t('attachmentComingSoon'),
                 submit: t('submit'),
                 selectDepartment: t('selectDepartment'),
                 successTitle: t('successTitle'),

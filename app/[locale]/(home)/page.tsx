@@ -13,6 +13,7 @@ import { InvestorSnapshot } from '@/components/sections/investor-snapshot';
 import { CareersCTA } from '@/components/sections/careers-cta';
 import { ContactCTA } from '@/components/sections/contact-cta';
 import { getHomePageContent } from '@/lib/sanity/fetch';
+import { getNewsArchive } from '@/lib/content/news-archive';
 import { globalLocations } from '@/lib/content/sprint4';
 import { DIVISION_PHOTOS } from '@/lib/content/photography';
 import { getAlternateLanguages, getCanonicalUrl } from '@/lib/seo/metadata';
@@ -40,6 +41,7 @@ export default async function HomePage({ params }: HomePageProps) {
   const t = await getTranslations({ locale, namespace: 'home' });
   const globalT = await getTranslations({ locale, namespace: 'pages.global' });
   const cms = await getHomePageContent(locale);
+  const fallbackNews = getNewsArchive().slice(0, 3);
 
   const fallbackBusinesses = [
     {
@@ -82,10 +84,10 @@ export default async function HomePage({ params }: HomePageProps) {
         title={t('overview.title')}
         description={t('overview.description')}
         stats={[
-          { value: 15, suffix: 'M+', label: t('overview.stats.sugar') },
-          { value: 40, suffix: '+', label: t('overview.stats.countries') },
-          { value: 25000, suffix: '+', label: t('overview.stats.employees') },
-          { value: 5, prefix: '€', suffix: 'B+', label: t('overview.stats.revenue') },
+          { display: t('overview.stats.sugarValue'), label: t('overview.stats.sugar') },
+          { display: t('overview.stats.countriesValue'), label: t('overview.stats.countries') },
+          { display: t('overview.stats.employeesValue'), label: t('overview.stats.employees') },
+          { display: t('overview.stats.revenueValue'), label: t('overview.stats.revenue') },
         ]}
       />
 
@@ -133,7 +135,7 @@ export default async function HomePage({ params }: HomePageProps) {
 
       <LatestNews
         title={t('news.title')}
-        articles={cms.news ?? []}
+        articles={cms.news ?? fallbackNews}
         cta={{ label: t('news.cta'), href: `/${locale}/news-media` }}
         locale={locale}
       />
@@ -144,14 +146,14 @@ export default async function HomePage({ params }: HomePageProps) {
         cta={{ label: t('investors.cta'), href: `/${locale}/investor-relations` }}
         reports={[
           {
-            title: 'Annual Report 2025',
-            year: 2025,
-            url: `/${locale}/investor-relations/annual-results`,
+            title: 'Annual results 2025/26',
+            year: 2026,
+            url: `/${locale}/news-media/annual-results-2025-26`,
           },
           {
-            title: 'Q1 2026 Interim Report',
-            year: 2026,
-            url: `/${locale}/news-media/q1-results-2026`,
+            title: 'Half-year accounts 2025/26',
+            year: 2025,
+            url: `/${locale}/news-media/half-year-results-2025-26`,
           },
           {
             title: 'Regulated information',

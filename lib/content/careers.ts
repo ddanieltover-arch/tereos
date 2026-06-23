@@ -17,40 +17,28 @@ export interface CareerTestimonial {
 
 export const careerValues: CareerValue[] = [
   {
-    id: 'sustainability',
-    title: 'Sustainability at the Core',
+    id: 'boldness',
+    title: 'Boldness',
     description:
-      'Every decision we make balances economic performance with environmental stewardship and community impact — from cane field to consumer shelf.',
+      'We are bold in our actions, we dare to take risks, we are enterprising and we are not afraid to make mistakes.',
   },
   {
-    id: 'partnership',
-    title: 'Farmer Partnership',
+    id: 'collaboration',
+    title: 'Collaboration',
     description:
-      'We grow together with 5,000+ farming families. Fair contracts, technical support, and long-term relationships define how we operate.',
+      'We work together, we share our knowledge and we support each other to achieve our common goals.',
   },
   {
-    id: 'innovation',
-    title: 'Innovation & Excellence',
+    id: 'performance',
+    title: 'Performance',
     description:
-      'We invest in R&D, digital agriculture, and process engineering to stay at the forefront of sugar, bioenergy, and ingredient markets.',
+      'We are committed to delivering results, we strive for excellence and we continuously improve our processes.',
   },
   {
-    id: 'integrity',
-    title: 'Integrity & Safety',
+    id: 'pragmatism',
+    title: 'Pragmatism',
     description:
-      'Zero compromise on ethical conduct and workplace safety. We maintain transparent governance and rigorous operational standards.',
-  },
-  {
-    id: 'inclusion',
-    title: 'Inclusive Culture',
-    description:
-      'Diverse perspectives drive better outcomes. We foster an environment where every colleague can contribute, grow, and belong.',
-  },
-  {
-    id: 'development',
-    title: 'Grow Your Career',
-    description:
-      'From graduate rotations to international assignments, we invest in learning paths that build leaders across Thailand and our global network.',
+      'We are pragmatic in our approach, we focus on what works and we adapt to changing circumstances.',
   },
 ];
 
@@ -58,44 +46,44 @@ export const careerTestimonials: CareerTestimonial[] = [
   {
     id: 't1',
     quote:
-      'Joining Tereos meant working on projects that genuinely matter — reducing emissions while keeping mills competitive. The engineering team collaborates across Thailand, Brazil, and France every week.',
-    name: 'Priya Sharma',
-    role: 'Senior Process Engineer, Bioenergy',
-    location: 'Bangkok, Thailand',
+      'I joined Tereos as an apprentice and have been able to grow within the company. The cooperative model and the diversity of activities offer real career opportunities.',
+    name: 'Téo',
+    role: 'Production operator',
+    location: 'France',
     image: TEREOS_PHOTOS.plantWorker,
   },
   {
     id: 't2',
     quote:
-      'The graduate program gave me rotations in agronomy, sustainability reporting, and operations. Two years in, I lead farmer partnership initiatives that I helped design as an intern.',
-    name: 'Somchai Wattana',
-    role: 'Agricultural Program Manager',
-    location: 'Khon Kaen, Thailand',
+      'What I appreciate at Tereos is the trust placed in employees and the possibility of evolving across different sites and countries.',
+    name: 'Olivier',
+    role: 'Industrial manager',
+    location: 'France',
     image: TEREOS_PHOTOS.field,
   },
   {
     id: 't3',
     quote:
-      'What sets Tereos apart is the cooperative mindset — even as a global company, decisions consider farmers and local communities. That alignment makes my work in ESG reporting meaningful.',
-    name: 'Camille Dubois',
-    role: 'Sustainability Analyst',
-    location: 'Paris, France',
+      'Working at Tereos means being part of a group that links agriculture and industry, with a strong commitment to sustainable development.',
+    name: 'Carlota',
+    role: 'Sustainability',
+    location: 'Brazil',
     image: TEREOS_PHOTOS.campus,
   },
   {
     id: 't4',
     quote:
-      'I moved from commodity trading to ASEAN export sales at Tereos. The international exposure and mentorship culture helped me build a network across ten markets in three years.',
-    name: 'Marcus Chen',
-    role: 'Export Sales Manager',
-    location: 'Singapore',
+      'The SUSTAIN\'2030 programme gave me exposure to agronomy, industrial operations, and CSR — a unique path to build a career in agri-food.',
+    name: 'Clara',
+    role: 'Graduate programme',
+    location: 'France',
     image: TEREOS_PHOTOS.laboratory,
   },
 ];
 
 export const careerStats = [
-  { value: '25,000+', labelKey: 'statEmployees' },
-  { value: '40+', labelKey: 'statCountries' },
-  { value: '92%', labelKey: 'statRecommend' },
-  { value: '18 mo', labelKey: 'statTenure' },
+  { value: '10,300', labelKey: 'statGrowers' },
+  { value: '15,800', labelKey: 'statEmployees' },
+  { value: '38', labelKey: 'statSites' },
+  { value: '€7.1bn', labelKey: 'statTurnover' },
 ] as const;

@@ -74,7 +74,7 @@ export default async function InnovationPriorityDetailPage({
         </div>
       </section>
 
-      <InnovationPriorityHighlights highlights={priority.highlights} label="Key Highlights" />
+      <InnovationPriorityHighlights highlights={priority.highlights} label={t('keyHighlights')} />
 
       {/* Other Priorities Carousel */}
       <InnovationPrioritiesCarousel

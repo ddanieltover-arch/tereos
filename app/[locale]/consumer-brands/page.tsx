@@ -46,7 +46,7 @@ export default async function ConsumerBrandsPage({
         ])}
       />
       <PageHero
-        eyebrow="Tereos Açúcar e Energia"
+        eyebrow="Tereos"
         title={t('title')}
         description={t('description')}
         image={TEREOS_PHOTOS.brandSugar}

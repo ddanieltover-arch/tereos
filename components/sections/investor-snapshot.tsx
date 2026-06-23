@@ -16,15 +16,15 @@ interface InvestorSnapshotProps {
 
 export function InvestorSnapshot({ title, description, cta, reports = [] }: InvestorSnapshotProps) {
   const demoReports = reports.length > 0 ? reports : [
-    { title: 'Annual Report 2025', year: 2025, url: '#' },
-    { title: 'Q1 Financial Results', year: 2026, url: '#' },
-    { title: 'Sustainability Report', year: 2025, url: '#' },
+    { title: 'Annual Report 2024/25', year: 2025, url: '/downloads/annual-report-2024-25.pdf' },
+    { title: 'Interim Results', year: 2025, url: 'https://tereos.com/en/group/finance/interim-results/' },
+    { title: 'Regulated Information', year: 2026, url: 'https://tereos.com/en/group/finance/regulated-information/' },
   ];
 
   const highlights = [
-    { icon: <TrendingUp className="w-5 h-5" />, label: 'Revenue Growth', value: '+12.5%', color: 'text-accent-green' },
-    { icon: <BarChart3 className="w-5 h-5" />, label: 'EBITDA Margin', value: '18.3%', color: 'text-secondary' },
-    { icon: <Shield className="w-5 h-5" />, label: 'Credit Rating', value: 'BBB+', color: 'text-primary' },
+    { icon: <TrendingUp className="w-5 h-5" />, label: 'Turnover (2023/24)', value: '€7.1bn', color: 'text-accent-green' },
+    { icon: <BarChart3 className="w-5 h-5" />, label: 'Countries', value: '14', color: 'text-secondary' },
+    { icon: <Shield className="w-5 h-5" />, label: 'Grower members', value: '10,300+', color: 'text-primary' },
   ];
 
   return (
@@ -35,7 +35,7 @@ export function InvestorSnapshot({ title, description, cta, reports = [] }: Inve
           <FadeIn direction="left">
             <div>
               <span className="inline-block text-label uppercase tracking-widest text-secondary font-semibold mb-4">
-                For Investors
+                Investor Relations
               </span>
               <h2 className="text-h2 font-bold text-neutral-900 mb-6 text-balance">{title}</h2>
               <p className="text-body-lg text-neutral-600 leading-relaxed mb-8 text-balance">{description}</p>
@@ -70,7 +70,7 @@ export function InvestorSnapshot({ title, description, cta, reports = [] }: Inve
             <div className="bg-white rounded-2xl border border-neutral-100 p-8 shadow-card">
               <h3 className="text-h4 font-bold text-neutral-900 mb-6 flex items-center gap-2">
                 <FileText className="w-5 h-5 text-secondary" />
-                Latest Publications
+                Financial Publications
               </h3>
               <div className="space-y-4">
                 {demoReports.map((report, index) => (
