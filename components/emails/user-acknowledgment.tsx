@@ -7,7 +7,6 @@ import {
   Preview,
   Section,
   Text,
-  Hr,
   Img,
   Link,
 } from '@react-email/components';
@@ -43,37 +42,40 @@ export const UserAcknowledgmentEmail = ({
       <Preview>{previewText}</Preview>
       <Body style={main}>
         <Container style={container}>
-          <Section style={logoSection}>
+          <Section style={header}>
             <Img
               src="https://tereosa.com/images/tereosa-logo.png" 
-              width="120"
+              width="140"
               height="auto"
-              alt="Tereos"
+              alt="Tereosa"
               style={logo}
             />
           </Section>
           
-          <Heading style={h1}>{translations.thankYou}</Heading>
-          
-          <Text style={text}>
-            {translations.dear}
-          </Text>
-          <Text style={text} dangerouslySetInnerHTML={{ __html: translations.received }} />
-          
-          <Hr style={hr} />
+          <Section style={content}>
+            <Heading style={h1}>{translations.thankYou}</Heading>
+            
+            <Section style={textSection}>
+              <Text style={text}>
+                {translations.dear}
+              </Text>
+              <Text style={text} dangerouslySetInnerHTML={{ __html: translations.received }} />
+            </Section>
 
-          <Section style={section}>
-            <Heading style={h2}>{translations.yourMessage}</Heading>
-            <Text style={messageText}>{message}</Text>
+            <Section style={messageCard}>
+              <Heading style={h2}>{translations.yourMessage}</Heading>
+              <Text style={messageText}>{message}</Text>
+            </Section>
           </Section>
           
-          <Hr style={hr} />
-          
-          <Text style={footer}>
-            Tereos Açúcar e Energia S.A.<br />
-            {translations.globalOperations}<br />
-            <Link href="https://tereosa.com" style={footerLink}>tereosa.com</Link>
-          </Text>
+          <Section style={footer}>
+            <Text style={footerText}>
+              Tereos Açúcar e Energia S.A.<br />
+              {translations.globalOperations}<br /><br />
+              © {new Date().getFullYear()} Tereosa. All rights reserved.<br />
+              <Link href="https://tereosa.com" style={footerLink}>tereosa.com</Link>
+            </Text>
+          </Section>
         </Container>
       </Body>
     </Html>
@@ -83,79 +85,95 @@ export const UserAcknowledgmentEmail = ({
 export default UserAcknowledgmentEmail;
 
 const main = {
-  backgroundColor: '#f4f7f6',
+  backgroundColor: '#f3f4f6',
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
+  padding: '40px 0',
 };
 
 const container = {
   backgroundColor: '#ffffff',
-  margin: '40px auto',
-  padding: '40px',
-  borderRadius: '8px',
-  borderTop: '4px solid #14B8A6',
-  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+  margin: '0 auto',
+  padding: '0',
+  borderRadius: '12px',
+  overflow: 'hidden',
+  maxWidth: '600px',
+  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05)',
 };
 
-const logoSection = {
-  marginBottom: '24px',
+const header = {
+  backgroundColor: '#f8fafc',
+  padding: '32px 40px',
+  borderBottom: '1px solid #e2e8f0',
+  textAlign: 'center' as const,
 };
 
 const logo = {
   margin: '0 auto',
 };
 
-const hr = {
-  borderColor: '#e5e7eb',
-  margin: '24px 0',
+const content = {
+  padding: '40px',
 };
 
 const h1 = {
-  color: '#111827',
-  fontSize: '24px',
+  color: '#0f172a',
+  fontSize: '28px',
   fontWeight: '700',
-  textAlign: 'center' as const,
-  marginBottom: '24px',
+  margin: '0 0 24px 0',
+  letterSpacing: '-0.5px',
 };
 
-const h2 = {
-  color: '#374151',
-  fontSize: '16px',
-  fontWeight: '600',
-  marginBottom: '12px',
-};
-
-const section = {
-  margin: '20px 0',
+const textSection = {
+  marginBottom: '32px',
 };
 
 const text = {
-  color: '#4B5563',
+  color: '#475569',
   fontSize: '16px',
   lineHeight: '26px',
-  margin: '10px 0',
+  margin: '0 0 16px 0',
+};
+
+const messageCard = {
+  backgroundColor: '#f8fafc',
+  borderRadius: '8px',
+  padding: '24px',
+  border: '1px solid #e2e8f0',
+};
+
+const h2 = {
+  color: '#334155',
+  fontSize: '16px',
+  fontWeight: '600',
+  margin: '0 0 12px 0',
+  textTransform: 'uppercase' as const,
+  letterSpacing: '0.5px',
 };
 
 const messageText = {
-  color: '#6B7280',
+  color: '#475569',
   fontSize: '15px',
   lineHeight: '24px',
-  fontStyle: 'italic',
-  borderLeft: '4px solid #E5E7EB',
-  paddingLeft: '16px',
-  margin: '10px 0',
+  margin: '0',
   whiteSpace: 'pre-wrap' as const,
 };
 
 const footer = {
-  color: '#9CA3AF',
+  backgroundColor: '#0f172a',
+  padding: '32px 40px',
+  textAlign: 'center' as const,
+};
+
+const footerText = {
+  color: '#94a3b8',
   fontSize: '13px',
   lineHeight: '22px',
-  textAlign: 'center' as const,
-  marginTop: '32px',
+  margin: '0',
 };
 
 const footerLink = {
-  color: '#14B8A6',
+  color: '#38bdf8',
   textDecoration: 'none',
+  fontWeight: '500',
 };

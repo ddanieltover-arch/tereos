@@ -1,10 +1,10 @@
 import { COMPANY_PHONE } from '@/lib/site';
 
 export const PRESS_CONTACT = {
-  email: 'contact-presse@tereos.com',
+  email: 'sales@tereosa.com',
   phone: COMPANY_PHONE,
   hours: '',
-  responseTime: 'For all inquiries, please reach out to us via contact-presse@tereos.com.',
+  responseTime: 'For all inquiries, please reach out to us via sales@tereosa.com.',
 } as const;
 
 export interface PressTeamMember {
@@ -21,13 +21,13 @@ export const pressTeam: PressTeamMember[] = [
     id: 'press-office',
     name: 'Tereos Press Office',
     role: 'Media Relations',
-    email: 'contact-presse@tereos.com',
+    email: 'sales@tereosa.com',
     region: 'Tereos Group',
   },
 ];
 
 export const pressInquiries = [
-  'For all inquiries, please reach out to us via contact-presse@tereos.com.',
+  'For all inquiries, please reach out to us via sales@tereosa.com.',
 ];
 
 export const pressResources = [
@@ -41,5 +41,5 @@ export const pressResources = [
 
 export const pressIntro = [
   'Welcome to our Press contact page.',
-  'For all inquiries, please reach out to us via the following email: contact-presse@tereos.com',
+  'For all inquiries, please reach out to us via the following email: sales@tereosa.com',
 ];

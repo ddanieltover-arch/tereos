@@ -14,7 +14,7 @@ const DEPARTMENT_EMAILS: Record<string, string> = {
   export: 'sales@tereosa.com',
   investor: 'sales@tereosa.com',
   sustainability: 'sales@tereosa.com',
-  media: 'contact-presse@tereos.com',
+  media: 'sales@tereosa.com',
   careers: 'sales@tereosa.com',
   general: 'sales@tereosa.com',
 };

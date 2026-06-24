@@ -25,8 +25,8 @@ export function ContactCTA({ locale = 'en' }: ContactCTAProps) {
     {
       icon: <Mail className="w-5 h-5" />,
       label: t('email'),
-      value: 'contact-presse@tereos.com',
-      href: 'mailto:contact-presse@tereos.com',
+      value: 'sales@tereosa.com',
+      href: 'mailto:sales@tereosa.com',
     },
     {
       icon: <Phone className="w-5 h-5" />,

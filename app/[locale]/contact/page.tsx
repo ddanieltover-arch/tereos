@@ -34,7 +34,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <FadeIn direction="left">
             <div className="space-y-8">
               {[
-                { icon: Mail, label: t('email'), value: 'contact-presse@tereos.com' },
+                { icon: Mail, label: t('email'), value: 'sales@tereosa.com' },
                 { icon: Phone, label: t('phone'), value: COMPANY_PHONE, href: COMPANY_PHONE_HREF },
                 { icon: MapPin, label: t('addressThailand'), value: THAILAND_OFFICE_ADDRESS },
                 { icon: MapPin, label: t('addressBrazil'), value: BRAZIL_OFFICE_ADDRESS },
