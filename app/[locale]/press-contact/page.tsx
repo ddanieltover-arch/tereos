@@ -15,6 +15,7 @@ import {
   pressResources,
   pressTeam,
 } from '@/lib/content/press';
+import { COMPANY_PHONE_HREF } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -68,15 +69,15 @@ export default async function PressContactPage({
                     <p className="text-primary group-hover:underline mt-1">{PRESS_CONTACT.email}</p>
                   </div>
                 </a>
-                <div className="flex items-start gap-4">
+                <a href={COMPANY_PHONE_HREF} className="flex items-start gap-4 group">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                     <Phone className="w-5 h-5" aria-hidden />
                   </div>
                   <div>
                     <h3 className="font-semibold text-neutral-900">{t('phoneLabel')}</h3>
-                    <p className="text-neutral-600 mt-1">{PRESS_CONTACT.phone}</p>
+                    <p className="text-primary group-hover:underline mt-1">{PRESS_CONTACT.phone}</p>
                   </div>
-                </div>
+                </a>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                     <Clock className="w-5 h-5" aria-hidden />

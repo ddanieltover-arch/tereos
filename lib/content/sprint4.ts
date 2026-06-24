@@ -73,9 +73,9 @@ export const fallbackJobs: JobPosting[] = [
 export const fallbackDownloads: DownloadDocument[] = getFallbackDownloadDocuments();
 
 export const globalLocations: GlobalLocation[] = [
-  { id: 'hq', name: 'Global Headquarters', type: 'office', country: 'Thailand', city: 'Bangkok', coordinates: [100.5, 13.75], description: 'Corporate HQ and R&D center' },
+  { id: 'hq', name: 'Headquarters', type: 'office', country: 'Thailand', city: 'Lampang', coordinates: [99.493, 18.289], description: 'Chomphu, Mueang Lampang District, Lampang 52100' },
   { id: 'th1', name: 'Korat Sugar Mill', type: 'facility', country: 'Thailand', city: 'Nakhon Ratchasima', coordinates: [102.1, 14.97], description: 'Major sugar production facility' },
-  { id: 'br1', name: 'São Paulo Office', type: 'office', country: 'Brazil', city: 'São Paulo', coordinates: [-46.63, -23.55], description: 'Latin America regional hub' },
+  { id: 'br1', name: 'Guaíra Operations', type: 'facility', country: 'Brazil', city: 'Guaíra', coordinates: [-50.642, -20.079], description: 'SP-345, 146, Guaíra - SP, 14790-000' },
   { id: 'fr1', name: 'Paris Office', type: 'office', country: 'France', city: 'Paris', coordinates: [2.35, 48.86], description: 'European operations center' },
   { id: 'vn1', name: 'Ho Chi Minh Facility', type: 'facility', country: 'Vietnam', city: 'Ho Chi Minh City', coordinates: [106.63, 10.82], description: 'Southeast Asia processing plant' },
   { id: 'in1', name: 'Mumbai Partner Hub', type: 'partner', country: 'India', city: 'Mumbai', coordinates: [72.88, 19.08], description: 'Distribution partner network' },

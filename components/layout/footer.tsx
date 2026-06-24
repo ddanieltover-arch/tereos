@@ -7,6 +7,12 @@ import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import { ArrowUp, Linkedin, Twitter, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 import { FadeIn } from '@/components/animations/fade-in';
+import {
+  BRAZIL_OFFICE_ADDRESS,
+  COMPANY_PHONE,
+  COMPANY_PHONE_HREF,
+  THAILAND_OFFICE_ADDRESS,
+} from '@/lib/site';
 
 export function Footer() {
   const locale = useLocale();
@@ -110,11 +116,23 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>—</span>
+                <a href={COMPANY_PHONE_HREF} className="hover:text-white transition-colors">
+                  {COMPANY_PHONE}
+                </a>
               </div>
-              <div className="flex items-center gap-3 text-sm text-white/60">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>Tereos Europe Campus, Seine-et-Marne, France</span>
+              <div className="flex items-start gap-3 text-sm text-white/60">
+                <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-white/80 text-xs font-medium mb-0.5">Thailand</p>
+                  <span>{THAILAND_OFFICE_ADDRESS}</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 text-sm text-white/60">
+                <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-white/80 text-xs font-medium mb-0.5">Brazil</p>
+                  <span>{BRAZIL_OFFICE_ADDRESS}</span>
+                </div>
               </div>
             </div>
           </FadeIn>

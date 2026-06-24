@@ -7,6 +7,12 @@ import { useTranslations } from 'next-intl';
 import { FadeIn } from '@/components/animations/fade-in';
 import { MagneticHover } from '@/components/animations/interactive-hover';
 import { cn } from '@/lib/utils';
+import {
+  BRAZIL_OFFICE_ADDRESS,
+  COMPANY_PHONE,
+  COMPANY_PHONE_HREF,
+  THAILAND_OFFICE_ADDRESS,
+} from '@/lib/site';
 
 interface ContactCTAProps {
   locale?: string;
@@ -24,14 +30,20 @@ export function ContactCTA({ locale = 'en' }: ContactCTAProps) {
     },
     {
       icon: <Phone className="w-5 h-5" />,
-      label: t('press'),
-      value: 'contact-presse@tereos.com',
-      href: 'mailto:contact-presse@tereos.com',
+      label: t('phone'),
+      value: COMPANY_PHONE,
+      href: COMPANY_PHONE_HREF,
     },
     {
       icon: <MapPin className="w-5 h-5" />,
-      label: t('office'),
-      value: t('officeValue'),
+      label: t('officeThailand'),
+      value: THAILAND_OFFICE_ADDRESS,
+      href: '#',
+    },
+    {
+      icon: <MapPin className="w-5 h-5" />,
+      label: t('officeBrazil'),
+      value: BRAZIL_OFFICE_ADDRESS,
       href: '#',
     },
     {

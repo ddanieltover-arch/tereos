@@ -204,7 +204,9 @@
       "email": "อีเมล",
       "press": "สื่อมวลชน",
       "office": "สำนักงานใหญ่",
-      "officeValue": "Tereos Europe Campus, Seine-et-Marne, France",
+      "officeThailand": "ประเทศไทย",
+      "officeBrazil": "บราซิล",
+      "officeValue": "Chomphu, Mueang Lampang District, Lampang 52100, Thailand",
       "inquiry": "สอบถาม",
       "inquiryValue": "ส่งข้อความ"
     }
@@ -323,6 +325,8 @@
       "email": "อีเมล",
       "phone": "โทรศัพท์",
       "address": "สำนักงานใหญ่",
+      "addressThailand": "ประเทศไทย — สำนักงานใหญ่",
+      "addressBrazil": "บราซิล",
       "firstName": "ชื่อ",
       "lastName": "นามสกุล",
       "department": "แผนก",

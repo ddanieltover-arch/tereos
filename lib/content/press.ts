@@ -1,6 +1,8 @@
+import { COMPANY_PHONE } from '@/lib/site';
+
 export const PRESS_CONTACT = {
   email: 'contact-presse@tereos.com',
-  phone: '',
+  phone: COMPANY_PHONE,
   hours: '',
   responseTime: 'For all inquiries, please reach out to us via contact-presse@tereos.com.',
 } as const;

@@ -5,6 +5,12 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { FadeIn } from '@/components/animations/fade-in';
 import { ContactForm } from '@/components/forms/contact-form';
 import { PageHero } from '@/components/shared/page-hero';
+import {
+  BRAZIL_OFFICE_ADDRESS,
+  COMPANY_PHONE,
+  COMPANY_PHONE_HREF,
+  THAILAND_OFFICE_ADDRESS,
+} from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -29,16 +35,23 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <div className="space-y-8">
               {[
                 { icon: Mail, label: t('email'), value: 'contact-presse@tereos.com' },
-                { icon: Phone, label: t('phone'), value: '—' },
-                { icon: MapPin, label: t('address'), value: 'Tereos Europe Campus, Seine-et-Marne, France' },
-              ].map(({ icon: Icon, label, value }) => (
+                { icon: Phone, label: t('phone'), value: COMPANY_PHONE, href: COMPANY_PHONE_HREF },
+                { icon: MapPin, label: t('addressThailand'), value: THAILAND_OFFICE_ADDRESS },
+                { icon: MapPin, label: t('addressBrazil'), value: BRAZIL_OFFICE_ADDRESS },
+              ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                     <Icon className="w-5 h-5" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-neutral-900">{label}</h4>
-                    <p className="text-neutral-600 mt-1">{value}</p>
+                    {href ? (
+                      <a href={href} className="text-neutral-600 mt-1 hover:text-primary transition-colors">
+                        {value}
+                      </a>
+                    ) : (
+                      <p className="text-neutral-600 mt-1">{value}</p>
+                    )}
                   </div>
                 </div>
               ))}

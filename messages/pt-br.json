@@ -204,7 +204,9 @@
       "email": "E-mail",
       "press": "Imprensa",
       "office": "Sede",
-      "officeValue": "Tereos Europe Campus, Seine-et-Marne, França",
+      "officeThailand": "Tailândia",
+      "officeBrazil": "Brasil",
+      "officeValue": "Chomphu, Mueang Lampang District, Lampang 52100, Thailand",
       "inquiry": "Consulta",
       "inquiryValue": "Enviar mensagem"
     }
@@ -323,6 +325,8 @@
       "email": "E-mail",
       "phone": "Telefone",
       "address": "Sede",
+      "addressThailand": "Tailândia — Sede",
+      "addressBrazil": "Brasil",
       "firstName": "Nome",
       "lastName": "Sobrenome",
       "department": "Departamento",

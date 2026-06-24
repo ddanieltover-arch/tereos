@@ -203,9 +203,12 @@
       "description": "For sales, partnerships, investor relations, or media inquiries, our teams are ready to connect with you.",
       "cta": "Contact Us",
       "email": "Email",
+      "phone": "Phone",
       "press": "Press",
       "office": "Headquarters",
-      "officeValue": "Tereos Europe Campus, Seine-et-Marne, France",
+      "officeThailand": "Thailand",
+      "officeBrazil": "Brazil",
+      "officeValue": "Chomphu, Mueang Lampang District, Lampang 52100, Thailand",
       "inquiry": "Inquiry",
       "inquiryValue": "Send a message"
     }
@@ -341,6 +344,8 @@
       "email": "Email",
       "phone": "Phone",
       "address": "Headquarters",
+      "addressThailand": "Thailand — Headquarters",
+      "addressBrazil": "Brazil",
       "firstName": "First Name",
       "lastName": "Last Name",
       "department": "Department",
@@ -849,7 +854,7 @@
     "contact": {
       "title": "Contact Us",
       "email": "contact-presse@tereos.com",
-      "phone": "—"
+      "phone": "+55 11 98343-6274"
     }
   },
   "emails": {
